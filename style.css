@@ -1,0 +1,39 @@
+p {
+	color: red;
+}
+
+h1 {
+	text-align: center;
+	color: purple;
+	margin-bottom: 50px;
+}
+
+.borderpic {
+	border: 3px solid grey;
+	padding: 10px;
+}
+
+img {
+	margin-left:45%;
+	margin-bottom: 5%;
+	max-width: 400px;
+}
+
+.picture {
+	margin-left:35%;
+	margin-bottom: 5%;
+}
+
+.borderpic:hover {
+	border: 3px solid red;
+}
+
+p:first-letter {
+	color: blue;
+	font-size: 30px;
+}
+
+.detail {
+	color: black;
+	margin-left: 20px;
+}
