@@ -110,6 +110,12 @@ h1{
 	background: brown;
 }
 
+/*top*/
+#top {
+	position: fixed;
+	right: 70px;
+	bottom: 30px;
+}
 /*footer*/
 #footer {
 	clear: both;
