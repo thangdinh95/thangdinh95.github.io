@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+	background-color: #CDDEE5;
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	max-width: 1000px;
+	margin: auto;
+	padding: auto;
+}
+
+
+
+#cal h1{ 
+	text-align: center;
+	color: ;
+	font-family: 'Freestyle Script';
+	font-size: 30px;
+}
+
+
+.box1 {
+	background-color: #9B9C9C;
+	padding: 5px 20px 87px 20px;
+	margin: 50px 50px 20px 350px;
+	border-radius: 15px;
+	width: 300px;
+	height: 450px;
+	-webkit-box-shadow: 0px 5px 14px 0px rgba(44, 50, 50, 0.8);
+	-moz-box-shadow:    0px 5px 14px 0px rgba(44, 50, 50, 0.8);
+	box-shadow:         0px 5px 14px 0px rgba(44, 50, 50, 0.8);
+}
+
+.brand h1{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.screen {
+	width: auto;
+	height: 60px;
+	background-color: #E8E3E5;
+	border: 1px solid #D1CCCE;
+	margin: 0px 7px 19px 7px;
+	border-radius: 5px;
+}
+
+.button button {
+	width: 50px;
+	height: 50px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	background-color: #252627;
+	color: #FFF9FB;
+	border-radius: 5px;
+	font-weight: bold;
+	cursor: pointer;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-top-width: 0px;
+	border-bottom-width: 4px;
+	border-bottom-color: #040404;
+}
+
+button:active {
+	opacity: 0.5;
+}
+
+#red {
+	background-color: #BB0A21;
+	color: #FFF9FB;
+	font-weight: bold;
+	border-bottom-color: #9A091C;
+}
+
+#red1 {
+	background-color: #BB0A21;
+	color: #FFF9FB;
+	font-weight: bold;
+	border-bottom-color: #9A091C;
+}
+
+#equal {
+	height: 110px;
+}
+
+.right {
+	float: left;
+}
+
+
+
+#wid {
+	width: 115px;
+}
+
+#big {
+	font-size: 9px;
+}
+
+.screen {
+	text-align: right;
+	padding-top: 10px;
+	padding-right:10px;
+}
+
+
+.screen b {
+	margin-top: 5px;
+	font-size: 30px;
+}
+
+
