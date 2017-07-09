@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>JobSeeker | About</title>
+    <title>JobSeeker | Account Update</title>
     <!--Favicon-->
     <link href="image/ava.png" type="image/png" rel="shortcut icon" />
     <!-- Bootstrap -->
@@ -27,7 +27,7 @@
   <!-- header -->
     <div class="header">
         <nav class="navbar navbar-inverse navbar-fixed-top navbar-static-top"> 
-          <div class="container">
+         <div class="container">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-menu">
                   <span class="sr-only"> Toggle navigation </span>
@@ -44,7 +44,7 @@
                   <li > <a href="index.html"> Home </a></li>
                   <li> <a href="company-review.html"> Company reviews </a></li>
                   <li> <a href="feedback.html"> Feedback </a></li>
-                  <li> <a href="aboutus.html"  class ="active"> About </a></li>
+                  <li> <a href="aboutus.html"> About </a></li>
 				          <li class="dropdown">
                         <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                             <span class="username">CL</span>
@@ -59,11 +59,12 @@
                                 <a href="update.html"> Update CV</a>
                             </li>							
 							<li>
-                                <a href="login.html" class ="active"> Log Out</a>
+                                <a href="login.html"> Log Out</a>
                             </li>
                             <li>
                                 <a href="#"><i class="fa fa-key"></i> Setting</a>
                             </li>
+							
                         </ul>
                     </li> 
                 </ul>
@@ -84,119 +85,120 @@
 		<div class="container">	
 			<div class="breadcrumb">							
 				<li><a href="index.html">Home</a></li>
-				<li>About Us</li>			
+				<li>Update My account</li>			
 			</div>		
 		</div>	
 </div>
 <!-- breadcrumb -->
 
-<!--about--> 
-
-<section class="aboutus" id="aboutus">
-		<div class="container" >
-			<div class="heading text-center">	
-        <div class="col-md-12">     
-          <h2 class="line">Who are we</h2>
-        </div>
-<div class="col-md-12 col-sm-12 col-xs-12 layered-paper" style="margin-bottom: 40px;">           
-          <h3 style="padding: 20px 30px;">Our Mission is to help awesome developers like you grow your IT career.
-          We do this by featuring great IT job from top companies.
-           And we offer you content and resources you need to move up to your next 
-          IT jobs</h3>
-        </div>
-
-
-				<div class="col-md-12" >			
-					<h2 class="line">Keep in touch</h2>
-				</div>
-
-				<div class="row">
-<div class="col-md-4 hidden-xs hidden-sm">
-      <div class="revieww">
-        <img src="image/about-us.jpg" class="img-responsive"/>
-      </div>
-</div>
-
-      <div class="col-md-4">
-      <div class="revieww">
-        <div class="office">
-         <p><b> ADDRESS: </b><br>
-         21 Le Dai Hanh, Dong Da, Ha Noi </p>
-         <p><b> GMAIL: </b><br>
-         jobseeker@gmail.com </p>
-         <p><b> WEBSITE: </b><br>
-         www.jobseeker.com </p>
-		<hr>
-		<p class="text-center"><b style="font-size: 25px;">Find us on</em> </b>
-		<div class="col-md-12 col-md-offset-2 col-lg-12 col-lg-offset-2 col-sm-12 col-sm-offset-3">
-         <ul class="top-icons">
-			<li><a class="fb" href="#" style="background:url(image/icon/fb.png) no-repeat;"></a></li>
-			<li><a class="twitt" href="#" style="background:url(image/icon/tw.png) no-repeat;"></a></li>
-			<li><a class="ins" href="#" style=" background:url(image/icon/ins.png) no-repeat;"></a></li>
-							</ul>
-							</div>
-        </div>
-      </div>
-      </div>
-
-
-      <div class="col-md-4 hidden-xs hidden-sm">
-            <div class="revieww">
-        <img src="image/about-us.jpg" class="img-responsive"/>
-        </div>
-	  </div>	
-
-				<div class="container" >			
-					<div class="row">
-						<div class="heading text-center">		
-							<br>		
-							<h2 class="line">Meet The Team</h2>
-						</div>				 
-							<div class="col-md-6">
-								<div id="content" style="border: 2px solid #D90429; border-radius: 8px;" >
-									<div class="papers text-center"><br>
-					
-										<img src="image/th.jpg" alt=""><br/>
-										
-										<h4 >Thang Dinh </h4>
-                    <h4> CEO and CO-FOUNDER</h4>
-										<p style="padding: 0px 20px; margin: 30px 0px 20px 0px;"> “If you feel that helping others in their career is what makes your life more meaningful, you will enjoy being part of Jobseekers’ Dream Makers team.” </p>
+<!--feedback-->
+<div class="container">
+	<div class="row">
+			 <div id="content">
+          <div class="border">
+            <div class="title">
+              <span> Update My Account </span>
+            </div>  
+          </div>	
+<!--begin change profile-->		  
+			  <div class="rtitle">
+				  <span style= "color: #EF233C;" > Change profile </span>
+			  </div>
+		  
+					<div id="content">
+							<p> *Current Password:</p>
+								<form class="filter">
+									<input type="password" id="password" > <br>
+								</form>															
+							<p>* First Name:</p>
+								<form class="filter">
+								<input type="ftext" id="text" > <br>	
+								</form>
+							<p>* Last Name:</p>									
+								<form class="filter">
+								<input type="ftext" id="text" > <br>	
+								</form>
+							<p >*Birthday:</p>	
+								<form class="filter">
+								<input type="date">	
+								</form>
+							<p>*Gender:</p>
+								<form class="filter">
+								  <input type="radio" name="gender" value="male"> Male<br>
+								  <input type="radio" name="gender" value="female"> Female<br>								  
+								</form>							
+									<div class="text-center" >
+										<button class=" btnn btn-primary" type="submit" value="Save" style="text-align :center">SAVE</button>
 									</div>
-								</div>
+					</div><!--end change profile-->
+	<!--end change profile-->
+
+<!--begin change pass-->	
+						<div class="rtitle">
+						  <span style= "color: #EF233C;" > Change password </span>
+						</div>
+							<div id="content" >
+								<p > *Current Password:</p>
+									<form class="filter">
+										<input type="password" id="password" > <br>
+									</form>							
+								<p > * Enter New Password:</p>
+									<form class="filter">
+										<input type="password" id="password" > <br>
+									</form>							
+								<p> *Confirm New Password::</p>
+									<form class="filter">
+										<input type="password" id="password" > <br>
+									</form>
+										<div class="text-center" >
+										<button class=" btnn btn-primary" type="submit" value="Save" style="text-align :center">SAVE</button>
+										</div>														
 							</div>
+<!--end change pass-->	
+
+
+<!--begin change email login-->						
+						<div class="rtitle">
+						  <span style= "color: #EF233C;" > Change Email login </span>
+						</div>
+							<div id="content" >
+								<p > Current Email Login:</p>  <p class="filter">abc@gmail.com	</p>		
+								<p> *Current Password:</p>
+									<form class="filter">
+										<input type="password" id="password" > <br>
+									</form>									
+								<p > * Enter New Email Login:</p>
+									<form class="filter">
+										<input type="ftext" id="text" > <br>
+									</form>
+									
+								<p> * Enter New Email Login:</p>
+									 <form class="filter">
+										<input type="ftext" id="text" > <br>
+									</form>
+										<div class="text-center" >
+											<button class=" btnn btn-primary" type="submit" value="Save" style="text-align :center">SAVE</button>
+										</div>			
+							</div>	
+
 								
-							<div class="col-md-6">
-									<div id="content" style="border: 2px solid #D90429; border-radius: 8px;" >
-										<div class="papers text-center">
-										<br>
-											<img src="image/ha.jpg" alt=""><br/>
-											
-											<h4>Dang Ha </h4>
-                      <h4> DIRECTOR OF CUSTOMER LOVE</h4>
-											<p style="padding: 0px 20px; margin: 30px 0px 20px 0px;">
-											"If you are looking for a good working culture which balances professional environment and flexibility of a digital business, Jobseekers is a perfect place to move up in career."
-											</p>
-										</div>
-									</div>
-							</div>
-					</div>
-				</div>
-		
-</section>
-<!--about-->
+		</div>	<!--end change email login-->		 						
+		<!--/.col-md-12-->		
+	</div><!--/.row-->
+</div> <!--end container-->	
+<!--feeback-->
 
  <!--footer-->
       <div class="footer">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <div class="footer-copyright"> &copy; 2017 JobSeeker | Design by Dinh Tien Thang_1401040182 - Dang Hong Ha_1401040058 | HCI Spring </div>
+              <div class="footer-copyright"> &copy; 2017 JobSeeker | Design by Dinh Tien Thang </div>
             </div>
           </div>
         </div>
       </div>
 <!--footer-->
-
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
