@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>JobSeeker | Account Update</title>
+    <!--Favicon-->
+    <link href="image/ava.png" type="image/png" rel="shortcut icon" />
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min-bs.css" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="css/style.css" rel="stylesheet" />  
+	 <link rel="stylesheet" href="css/style1.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+  <!-- header -->
+    <div class="header">
+        <nav class="navbar navbar-inverse navbar-fixed-top navbar-static-top"> 
+         <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-menu">
+                  <span class="sr-only"> Toggle navigation </span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+
+              <a href="index.html"><img src="image/fitlove-logo.png" class="navbar-brand"> </a>
+            </div>
+  
+            <div class="navbar-collapse collapse" id="main-menu">
+                <ul class="nav navbar-nav navbar-right">
+                  <li > <a href="index.html"> Home </a></li>
+                  <li> <a href="company-review.html"> Company reviews </a></li>
+                  <li> <a href="feedback.html"> Feedback </a></li>
+                  <li> <a href="aboutus.html"> About </a></li>
+				          <li class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <span class="username">CL</span>
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu extended logout">
+                            <div class="log-arrow-up"></div>
+                            <li >
+                                <a href="update-account.html"> Update Account</a>
+                            </li>
+                            <li>
+                                <a href="update.html"> Update CV</a>
+                            </li>							
+							<li>
+                                <a href="login.html"> Log Out</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-key"></i> Setting</a>
+                            </li>
+							
+                        </ul>
+                    </li> 
+                </ul>
+            </div>
+          </div>
+      </nav>
+    </div>
+ <!-- header -->
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!-- breadcrumb -->
+<div id="breadcrumb">
+		<div class="container">	
+			<div class="breadcrumb">							
+				<li><a href="index.html">Home</a></li>
+				<li>Update My account</li>			
+			</div>		
+		</div>	
+</div>
+<!-- breadcrumb -->
+
+<!--feedback-->
+<div class="container">
+	<div class="row">
+			 <div id="content">
+          <div class="border">
+            <div class="title">
+              <span> Update My Account </span>
+            </div>  
+          </div>	
+<!--begin change profile-->		  
+			  <div class="rtitle">
+				  <span style= "color: #EF233C;" > Change profile </span>
+			  </div>
+		  
+					<div id="content">
+							<p> *Current Password:</p>
+								<form class="filter">
+									<input type="password" id="password" > <br>
+								</form>															
+							<p>* First Name:</p>
+								<form class="filter">
+								<input type="ftext" id="text" > <br>	
+								</form>
+							<p>* Last Name:</p>									
+								<form class="filter">
+								<input type="ftext" id="text" > <br>	
+								</form>
+							<p >*Birthday:</p>	
+								<form class="filter">
+								<input type="date">	
+								</form>
+							<p>*Gender:</p>
+								<form class="filter">
+								  <input type="radio" name="gender" value="male"> Male<br>
+								  <input type="radio" name="gender" value="female"> Female<br>								  
+								</form>							
+									<div class="text-center" >
+										<button class=" btnn btn-primary" type="submit" value="Save" style="text-align :center">SAVE</button>
+									</div>
+					</div><!--end change profile-->
+	<!--end change profile-->
+
+<!--begin change pass-->	
+						<div class="rtitle">
+						  <span style= "color: #EF233C;" > Change password </span>
+						</div>
+							<div id="content" >
+								<p > *Current Password:</p>
+									<form class="filter">
+										<input type="password" id="password" > <br>
+									</form>							
+								<p > * Enter New Password:</p>
+									<form class="filter">
+										<input type="password" id="password" > <br>
+									</form>							
+								<p> *Confirm New Password::</p>
+									<form class="filter">
+										<input type="password" id="password" > <br>
+									</form>
+										<div class="text-center" >
+										<button class=" btnn btn-primary" type="submit" value="Save" style="text-align :center">SAVE</button>
+										</div>														
+							</div>
+<!--end change pass-->	
+
+
+<!--begin change email login-->						
+						<div class="rtitle">
+						  <span style= "color: #EF233C;" > Change Email login </span>
+						</div>
+							<div id="content" >
+								<p > Current Email Login:</p>  <p class="filter">abc@gmail.com	</p>		
+								<p> *Current Password:</p>
+									<form class="filter">
+										<input type="password" id="password" > <br>
+									</form>									
+								<p > * Enter New Email Login:</p>
+									<form class="filter">
+										<input type="ftext" id="text" > <br>
+									</form>
+									
+								<p> * Enter New Email Login:</p>
+									 <form class="filter">
+										<input type="ftext" id="text" > <br>
+									</form>
+										<div class="text-center" >
+											<button class=" btnn btn-primary" type="submit" value="Save" style="text-align :center">SAVE</button>
+										</div>			
+							</div>	
+
+								
+		</div>	<!--end change email login-->		 						
+		<!--/.col-md-12-->		
+	</div><!--/.row-->
+</div> <!--end container-->	
+<!--feeback-->
+
+ <!--footer-->
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="footer-copyright"> &copy; 2017 JobSeeker | Design by Dinh Tien Thang </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!--footer-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

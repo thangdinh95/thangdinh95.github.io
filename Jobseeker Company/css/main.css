@@ -1,0 +1,477 @@
+/*header*/
+.navbar-inverse .navbar-nav li a {
+	color: #EDF2F4;
+
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+	color: #D90429;
+	background: #EDF2F4;
+}
+.navbar {
+	padding: 11px;
+}
+
+.navbar-brand {
+	padding: 5px 5px;
+}
+
+.service-box {
+	background: #EDF2F4;
+	border-bottom: 2px solid #D90429;
+	padding: 40px 20px;
+	margin-bottom: 50px;
+}
+
+.service-box:hover {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+	margin-top: -20px;
+}
+
+.service-icon {
+	margin-bottom: 20px;
+	color: #2B2D42;
+	font-size: 40px;
+}	
+
+.service-desc h5 {
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #8D99AE;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.service-desc .divider-header {
+	margin-bottom: 30px;
+}
+
+.form-control{
+	height: 50px
+}
+
+.findjob{
+	color: #fff;
+    text-align: center;
+    padding: 70px;
+    background: url(../office.jpg) 50% 50% no-repeat;
+    background-size: cover;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.form-inline {
+	background: black;
+    border-radius: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 40px;
+    opacity: 0.8;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.border-pic{
+	border: 4px solid #cccccc;
+	width: 70%;
+	margin: 10px 0px 30px 20px;
+	display: block;
+}
+
+.dropdown-menu.extended li a {
+
+    border-bottom: 1px solid #EBEBEB !important;
+
+    font-size: 12px;
+
+    list-style: none;
+
+}
+
+
+
+.dropdown-menu.extended li a {
+
+    padding: 15px 10px !important;
+
+    width: 100%;
+
+    display: inline-block;
+
+}
+
+
+
+.dropdown-menu.extended li a:hover {
+
+    background-color: #F7F8F9 !important;
+
+    color: #2E2E2E;
+
+    border-bottom: 1px solid #688a7e !important;
+
+}
+
+
+.dropdown-menu.extended.logout > li {
+
+    float: left;
+
+    text-align: left;
+
+    width: 100%;
+
+}
+
+.dropdown-menu.extended.logout > li.eborder-top {
+
+    border-top: 2px solid #688a7e !important;    
+
+}
+
+.dropdown-menu.extended.logout > li:last-child {
+
+    float: left;
+
+    text-align: left;
+
+    width: 100%;
+
+    background: #688a7e;    
+
+}
+
+
+
+.dropdown-menu.extended.logout > li:last-child > a, .dropdown-menu.extended.logout > li:last-child > a:hover {
+
+    color: #fff;
+
+    border-bottom: none !important;
+
+    text-transform: uppercase;
+
+    background-color:#8D99AE !important;
+
+}
+
+
+
+.dropdown-menu.extended.logout > li:last-child > a:hover > i{
+
+    color: #fff;
+
+}
+
+.dropdown-menu > li > a{
+
+    color: #797979;
+
+}
+
+.dropdown-menu.extended.logout > li > a {
+
+    border-bottom: 1px solid #EBEBEB !important;
+
+    font-size: 14px;
+
+    list-style: none;
+
+    padding: 15px 10px !important;
+
+    width: 100%;
+
+    display: inline-block;
+
+    color: black;
+
+}
+
+
+
+.dropdown-menu.extended.logout > li > a:hover {
+
+    background-color: #F7F8F9 !important;
+
+    color: #2E2E2E;
+
+    border-bottom: 1px solid #8D99AE !important;
+
+}
+
+
+
+.dropdown-menu.extended.logout > li > a:hover i {
+
+    color: #8D99AE;
+
+}
+
+
+
+.dropdown-menu.extended.logout > li > a i {
+
+    font-size: 17px;
+
+}
+
+
+
+.dropdown-menu.extended.logout > li > a > i {
+
+    display: inline-block;
+
+    padding-right: 10px
+
+}
+
+/*search-result*/
+.center{
+	background: #EEEEEE;
+}
+
+.found-result{
+	border-bottom: 1px solid black;
+    padding: 15px 30px;
+}
+
+.found {
+	border-bottom: 1px dashed black;
+    padding: 18px 30px 18px 30px;
+    display: block;
+}
+
+.found:hover{
+	background-color: #8D99AE;
+}
+
+.border-picc{
+	border: 4px solid black;
+	width: 70%;
+	margin: 10px 0px 30px 20px;
+	display: block;
+	margin-left: 2px;
+}
+
+.jobtitle{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.jobdes {
+	margin-top: 20px;
+}
+
+.jobdetail{
+vertical-align: middle;
+margin-top:10px;
+color: #2B2D42;
+}
+
+.stitched {
+   padding: 20px;
+   margin: 40px;
+   background: #2B2D42;
+   color: #fff;
+   font-size: 21px;
+   font-weight: bold;
+   line-height: 1.3em;
+   border: 2px dashed #EF233C;
+   border-radius: 5px;
+   box-shadow: 0 0 0 4px #2B2D42, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+   text-shadow: -1px -1px #aa3030;
+   font-weight: normal;
+   text-align: center;
+}
+
+.filter {
+	padding: 10px 20px 10px 20px;
+}
+
+.filtertitle {
+	text-align: center;
+	text-decoration: underline;
+	font-weight: 200;
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+/*result*/
+.layered-paper {
+    background: #eee;
+    box-shadow:
+        0 1px 1px rgba(0,0,0,0.15), /* The top layer shadow */
+        0 10px 0 -5px #eee, /* The second layer */
+        0 10px 1px -4px rgba(0,0,0,0.15), /* The second layer shadow */
+        0 20px 0 -10px #eee, /* The third layer */
+        0 20px 1px -9px rgba(0,0,0,0.15); /* The third layer shadow */
+    padding: 15px 0 12px 0; 
+}
+
+
+.btnn {
+	padding: 15px 65px;
+  	background: #EF233C;
+  	color: #EDF2F4;
+  	border-radius: 4px;
+ 	border:none;
+ 	margin: 10px 0 10px 0;
+ 	font-weight: bold;
+}
+
+.border {
+		border: solid #F5F5F5;
+		background-color: #2B2D42;
+		color: white;
+		font-weight: bold;
+	}
+.things {
+		margin-left: 5%;
+		margin-right: 5%;
+		text-align: justify;
+	}
+
+.title{
+		padding: 1%;
+		font-size: 15px;
+		font-family: ;
+	}
+
+.appli h3{
+	color: #1A1018;
+	  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 800;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.rtitle{
+		padding: 1%;
+		font-size: 15px;
+	}
+
+.bordernav {
+		border-top: 2px dotted #EF233C;
+		border-bottom: 2px dotted #EF233C;
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		margin: 50px 0 15px 0;
+	}
+
+.jtitle {
+	color: black;
+	font-size: 15px;
+}
+
+#content {
+		width: 100%;
+		border: 1px solid #CDCDCD;
+		float: left;
+		margin-bottom: 10px;
+		margin-top: 10px;
+		background-color: #EDF2F4;
+		border-radius: 5px;
+	}
+
+/*company-review*/
+.review{
+    background: #EDF2F4;
+    padding: 40px 20px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.review:hover{
+	background-color: #EF233C;
+	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25), 0 0 0.5em 0 #994e23;
+	color:#EF233C;	
+}
+
+/*company-result*/
+.icon .glyphicon {
+	display: block;
+}
+
+.comreviewpic{
+	margin: 20px 0 20px 0;	
+}
+
+.layout{
+    background: #EDF2F4;
+    padding: 20px 20px;
+    border-radius: 5px;
+}
+
+
+/*about*/
+
+.line{
+  border-bottom: 2px dashed red;
+  width:30%;
+  text-align: center;
+  margin:0% 35% 0% 35%;
+}
+
+.revieww{
+    padding: 30px 0px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.office {
+background: #EDF2F4; 
+padding: 60px 20px 70px 20px; 
+text-align: justify;
+}
+.office. .p {
+  color: white;
+}
+
+.head-right {
+    float: none;
+    text-align: center;
+    margin-top: 13px;
+}
+
+ul.top-icons {
+    float: left;
+}
+ul.top-icons li{
+list-style-type:none;
+display:inline-block;
+margin-right:10px;
+}
+ul.top-icons li a{
+width:24px;
+height:24px;
+display:block;
+}
+ul.top-icons li a:hover{
+ opacity:0.4;
+}
+
+
+/*footer*/
+.footer {
+  background: #222;
+  color: #A0A0A0;
+  padding:10px 20px 10px 20px;
+  border-top: 4px solid red;
+  margin-top: 20px;
+  -webkit-box-shadow: 0 -1px 12px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0 -1px 12px rgba(0,0,0,0.4);
+  box-shadow: 0 -1px 12px rgba(0,0,0,0.4);
+  color: 0 -1px 12px rgba(0,0,0,0.4);
+
+
+}
+.footer-copyright {
+  text-align: center;
+  color: red;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  font-size: 0.9em;
+}
