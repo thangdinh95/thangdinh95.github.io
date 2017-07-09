@@ -1,0 +1,316 @@
+body {
+		font-family: "HelveticaNeue-Light";
+		font-size: 16px;
+		font-weight: 300;
+	}
+
+	div[class^="col-"]{
+		padding:0 !important;
+	}
+
+	#introduction {
+		background: -webkit-linear-gradient(top, rgba(208, 228, 247, 1) 0%, rgba(115, 177, 231, 1) 24%, rgba(10, 119, 213, 1) 50%, rgba(83, 159, 225, 1) 79%, rgba(135, 188, 234, 1) 100%);
+	}
+	
+	#container {
+		width: 80%;
+		padding: 0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	#head {
+
+		font-family: "Bauhaus 93";
+		font-size: 500%;
+		text-align: center;
+		color: #ffffb3;
+		padding: 12px 0;
+
+	}
+	
+	nav {
+		background-color: #ffe066;
+	}
+
+	a{
+		color: #6E3B22;
+	}
+	
+	.nav.nav-tabs {
+		border-bottom: none;
+	}
+	
+	#head-link {
+		height: auto;
+		line-height: 30px;
+		
+		clear: both;
+	}
+	
+	#content {
+		width: 100%;
+		border: 1px solid #CDCDCD;
+		float: left;
+		margin-bottom: 5px;
+		background-color: #F5F5F5;
+	}
+	
+	#right {
+		width: 100%;
+		border: 1px solid #CDCDCD;
+		margin-bottom: 5px;
+		background: #BBD6E2;
+		font-size: 16px;
+	}
+	
+	#footer {
+		
+		clear: both;
+		border: 1px solid #CDCDCD;
+		background: -webkit-linear-gradient(top, rgba(208, 228, 247, 1) 0%, rgba(115, 177, 231, 1) 24%, rgba(10, 119, 213, 1) 50%, rgba(83, 159, 225, 1) 79%, rgba(135, 188, 234, 1) 100%);
+		text-align: center;
+		font-size: 100%;
+		text-align: center;
+		color: #ffffb3;
+		padding: 20px 0;
+		font-style: italic;
+	}
+	
+	.border {
+		border: solid #F5F5F5;
+		background-color: #277BB1;
+		color: white;
+		font-weight: bold;
+	}
+	
+	.bordernav {
+		border-top: 2px dotted #6E3B22;
+		border-bottom: 2px dotted #6E3B22;
+		color: white;
+		font-weight: bold;
+		text-align: center;
+	}
+	
+	.things {
+		margin-left: 5%;
+		margin-right: 5%;
+		text-align: justify;
+	}
+
+	.title{
+		padding: 1%;
+		font-size: 15px;
+		font-family: "Chiller";
+	}
+
+	.rtitle{
+		padding: 1%;
+		font-size: 15px;
+		font-family: "Chiller";
+	}
+	h2{
+	font-size: 252%;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	}
+
+	.typewriter {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+ white-space: nowrap;
+ display: flex;
+  margin: 3 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .18em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+
+/*right-content*/
+.piccc img{
+	float: none;
+  margin: 0 auto;
+  width: 60%;
+  height: 60%;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  border-radius: 50% !important; 
+}
+
+.name h1 {
+	color: #DFBF33;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 7px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.job h3{
+	color: #1A1018;
+	  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 800;
+  margin-bottom: 7px;
+  text-align: center;
+
+}
+
+
+
+/*banner*/
+#main-slider {
+  position: relative;
+}
+
+
+#main-slider .carousel .carousel-content {
+  margin-top: 110px;
+}
+
+
+
+#main-slider .carousel .btn-slide {
+  padding: 8px 20px;
+  background: #1BBD36;
+  color: #fff;
+  border-radius: 4px;
+  margin-top: 25px;
+  display: inline-block;
+}
+
+#main-slider .carousel .slider-img{
+  text-align: right;
+  position: absolute;
+}
+
+
+#main-slider .carousel .item {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 0 !important;
+  opacity: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  display: block !important;
+  height: 330px;
+  -webkit-transition: opacity ease-in-out 500ms;
+  -moz-transition: opacity ease-in-out 500ms;
+  -o-transition: opacity ease-in-out 500ms;
+  transition: opacity ease-in-out 500ms;
+}
+
+#main-slider .carousel .item:first-child {
+  top: auto;
+  position: relative;
+}
+
+#main-slider .carousel .item.active {
+  opacity: 1;
+  -webkit-transition: opacity ease-in-out 500ms;
+  -moz-transition: opacity ease-in-out 500ms;
+  -o-transition: opacity ease-in-out 500ms;
+  transition: opacity ease-in-out 500ms;
+  z-index: 1;
+}
+
+#main-slider .carousel h1 {
+  font-size: 80px;
+  line-height:60px;
+  color:#FFF;
+  font-weight:700;
+  padding-left:0;
+  text-align: center;
+  font-family: "forte";
+}
+#main-slider .carousel p {
+  font-size: 24px;
+  line-height:24px;
+  color:#FFF;
+  font-weight:400;
+  padding-left:0;
+  text-align: center;
+}
+
+/*topbar*/
+#homie{
+	padding: 1px;
+    background-color: black;
+}
+
+.email i, .phone i, .email em, .phone em,.email em a,.location i,.location em {
+    font-style: normal;
+    margin: 9px 10px 0 0;
+    display: inline-block;
+    vertical-align: middle;
+	color:#fff;
+}
+.email, .phone {
+    margin: 0 20px 0 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+span.email a:hover{
+  color: #F9DB55;
+}
+.head-right {
+    float: right;
+}
+ul.top-icons {
+    float: right;
+}
+ul.top-icons li{
+list-style-type:none;
+display:inline-block;
+margin-right:15px;
+}
+ul.top-icons li a{
+width: 28px;
+height:27px;
+display:block;
+margin-top: 9px;
+}
+ul.top-icons li a:hover{
+ opacity:0.4;
+}
+/*topbar*/
+
+
+/*footer*/
+.footer {
+  background: #222;
+  color: #A0A0A0;
+  padding:10px 20px 10px 20px;
+  border-top: 4px solid #ffe066;
+  margin-top: 20px;
+  -webkit-box-shadow: 0 -1px 12px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0 -1px 12px rgba(0,0,0,0.4);
+  box-shadow: 0 -1px 12px rgba(0,0,0,0.4);
+  color: 0 -1px 12px rgba(0,0,0,0.4);
+
+
+}
+.footer-copyright {
+  text-align: center;
+  color: #ffe066;
+  margin-bottom: 13px;
+  padding-top: 10px;
+  font-size: 0.9em;
+}
