@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Login Form </title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div id="wrapper1">
+	<div class="banner">
+		<p id="title"> Register a new account </p>
+	</div>
+</div>
+
+<br>
+
+<div id="wrapper2">
+	<div id= "container" class="box">
+		<form>
+			<label> <input type="text" class= "row1" id="name" name="name" placeholder="Your name"> </label> <br>
+			<label> <input type="text" class= "row1" id="email" name="email" placeholder="Your email"> </label><br>
+			<label> <input type="password" class= "row1" id="password" name="password" placeholder="Your password"></label><br>
+			<label> <input type="text" class= "row2" id ="address" name="address" placeholder="Your address"></label><label> <input type="text" class= "row2" id= "number" name="number" placeholder="Your phone number"></label> <br>
+			<label><b> Date of Birth </b><input type="text" class= "row3" id="dob" name="dob" placeholder="Your date of birth"></label> <br>
+			<b> Sex </b>
+			<label> <input type="radio" name="gender" id="male" value="male"> Male </label>
+			<label><input type="radio" name="gender" id="female" value="female"> Female </label>
+
+			<br>
+			<br>
+			<input class ="submit" type="button" value="Sign Up" onclick="showData()">
+		</form>
+	</div>
+
+	<div id="end" class="box" style="display:none;">
+		<b> Your name: </b> <i id="lbname"></i><br>
+		<b> Your email: </b> <i id="lbemail"></i><br>	
+		<b> Your password: </b> <i id="lbpassword"></i>	<br>
+		<b> Your address: </b> <i id="lbaddress"></i> <br>
+		<b> Your phone number: </b>	<i id="lbphone"></i> <br>
+		<b> Your dob: </b>	<i id="lbdob"></i> <br>	
+		<b> Your sex: </b>	<i id="lbsex"></i> <br>	
+		<br><br><br>
+		<a href="login-form.html"><input class ="submit" type="button" value="Back"></a>				
+	</div>
+
+
+</div>
+
+
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/style.js"></script>
+</body>
+</html>
