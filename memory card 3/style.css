@@ -1,0 +1,187 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	overflow-y: scroll;
+	background: url(image/bg3.jpg)  no-repeat center fixed;
+	background-size: cover;
+}
+
+
+h1 {
+	margin: 30px;
+	text-transform: uppercase;
+	font-size: 35px;
+}
+
+.wrap {
+	position: relative;
+	margin: auto;
+	padding: 15px;
+	max-width: 1265px;
+	max-height: 616px;
+	height: 100%;
+}
+
+.grid {
+	float: left;
+	padding: 10px 10px 10px 30px;
+}
+
+.card {
+	position: relative;
+	display: inline-block;
+	margin: 20px 34px 10px 15px ;
+}
+
+.card .back {
+	transform: rotateY(180deg);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+.card .front, .card .back {
+	transition: all 0.5s;
+	backface-visibility: hidden;
+}
+
+img {
+	border-radius: 10px;
+}
+
+img:hover {
+	box-shadow:  0px 0px 23px 0px white;
+	cursor: pointer;
+}
+
+.nohover {
+	box-shadow:  0px 0px 10px 0px yellow;
+	cursor: default;
+}
+
+
+.flip > .back {
+	transform: rotateY(0deg);
+	
+}
+.flip > .front {
+	transform: rotateY(360deg);
+	
+}
+
+
+.progress {
+	text-align: center;
+	color: white;
+	border: 1px solid transparent;
+	border-radius: 2px;
+	font-size: 40px;
+	font-weight: bold;
+	word-spacing: 7px;
+	background:-webkit-linear-gradient(top, rgba(174,188,191,1) 0%,rgba(110,119,116,1) 50%,rgba(10,14,10,1) 51%,rgba(10,8,9,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	width: 93%;
+	margin-left: 45px;
+	font-family: 'Lobster', cursive;
+}
+
+.mode {
+	position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    background-color: rgba(46, 44, 44, 0.7);
+}
+
+.mode .dialog {
+	margin: 10% auto;
+    padding: 10px;
+    width: 500px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #999;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    -moz-box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    overflow: auto;
+    box-shadow: 0px 0px 25px 0px rgba(50, 50, 195, 0.96);
+}
+
+
+h1{
+	font-family: 'Lobster', cursive;
+}
+
+button {
+	width: 100px;
+	height: 50px;
+	margin: 10px 10px 50px 0;
+	cursor: pointer;
+	color: white;
+	outline: none;
+	border-radius: 5px;
+}
+
+button:hover {
+	opacity: 0.8;
+}
+
+#green {
+	background-color: green;
+	border: 1px solid green;
+}
+
+#blue {
+	background-color: blue;
+	border: 1px solid blue;
+}
+
+#red {
+	background-color: red;
+	border: 1px solid red;
+}
+
+
+#snow{
+	background: none;
+	font-family: Androgyne;
+	background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index:1;
+	-webkit-animation: snow 10s linear infinite;
+	-moz-animation: snow 10s linear infinite;
+	-ms-animation: snow 10s linear infinite;
+	animation: snow 10s linear infinite;
+}
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}	
