@@ -64,6 +64,10 @@ th{
 	cursor: pointer;
 }
 
+.sorttable_nosort {
+	cursor: default;
+}
+
 a {
 	color: #5CA4A9;
 }
