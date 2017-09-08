@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+	background-color: #EDF2F4;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #D90429;
+}
+
+section {
+	background-color: #8D99AE;
+	padding:30px 0;
+	margin-top: -20px;
+}
+
+.borderpic {
+	border: 2px solid #D90429;
+	margin-bottom: 30px;
+	border-radius: 10px;
+}
+
+.borderpic img {
+	border-radius: 10px;
+}
+
+
+footer #footer {
+	clear: both;
+	margin: 40;
+	background-color: black;
+}
+
+footer #footer. p {
+	padding: 30px;
+}
+
+footer .foot {
+	padding: 10px;
+	text-align: center;
+	color: red;
+	margin-top: 20px;
+}
