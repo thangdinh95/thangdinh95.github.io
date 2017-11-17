@@ -1,14 +1,4 @@
 $(function () {
-	//hàm setInterval
-	$('.ads').addClass('show');
-	$('.grey').addClass('show');
-
-	var ads = setInterval(function() {
-		$('.ads').removeClass('show');
-		$('.grey').removeClass('show');
-		clearInterval(ads);
-	},5000);
-
 
 	//hiện modal ra
 	$('.open1').on('click',function(event) {
