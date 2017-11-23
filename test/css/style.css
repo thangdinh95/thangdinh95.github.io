@@ -665,8 +665,9 @@ button.slick-next {
         padding: auto;
         position: absolute;
         top: 0%;
-        left: 10%;
+        left: 50%;
         z-index: 10;
+        margin-left: -538px;
     }
 
 }
