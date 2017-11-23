@@ -558,8 +558,19 @@ button.slick-next {
         font-size: 18px;
         padding: 0px 18px;
     }
-
 }
+
+    @media all and (min-width: 1530px) {
+        .content-news {
+        margin-top: 10%;
+        }
+    }
+
+    @media all and (min-width: 2000px) {
+        .content-news {
+        margin-top: 23%;
+        }
+    }
 /*---------------------footer-------------------*/ 
 .footer {
     clear: both;
