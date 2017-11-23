@@ -1,0 +1,647 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+	background: #FFFFFF;
+	margin: 0;
+	padding: 0;
+    font-family: 'Roboto', sans-serif;;
+}
+
+/*---------------------general-------------------*/ 
+.container {
+    max-width: 900px;
+    height: auto;
+    margin: auto;
+    padding: auto;
+}
+
+@media all and (min-width: 320px) {
+    .container {
+        max-width: 80%;
+    }
+}
+
+/*---------------------header-------------------*/
+header {
+    background-color: rgba(0, 0, 0, 0.68);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1100;
+    height: 7%;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.header-left {
+    max-width: 185px;
+    height: auto;
+    margin: auto;
+    padding: auto;
+    float: left;
+    text-align: justify;
+    font-size: 9px;
+}
+
+.header-right {
+    max-width: 100px;
+    height: auto;
+    margin: auto;
+    padding: auto;
+    float: right;
+}
+.book-mobile {
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    padding: 9px 5px;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 15px;
+    font-size: 10px;
+}
+
+.span-update {
+    margin-right: 20px;
+    color: red;
+}
+
+.span-unite {
+    margin-left: 20px;
+}
+
+@media all and (min-width: 320px) {
+     .header {
+        font-size: 10px;
+    }
+}
+ 
+/* Dành cho máy tính bảng chiều dọc */
+@media all and (min-width: 600px) {
+    .header {
+        height: 3%;
+    }
+
+    .header-right {
+        display: none;
+    }
+
+    .header-left {
+        max-width: 100%;
+    }
+}
+ 
+/* Dành cho máy tính bảng chiều ngang */
+@media all and (min-width: 1024px) {
+    .header-right {
+        display: none;
+    }
+
+    .header-left {
+        max-width: 100%;
+    }
+}
+ 
+/* Dành cho màn hình desktop */
+@media all and (min-width: 1280px) {
+     .header {
+        font-size: 15px;
+        height: 7%;
+    }
+
+    .header-right {
+        display: none;
+    }
+
+    .header-left {
+        max-width: 100%;
+        font-size: 15px;
+    }
+}
+
+/*---------------------banner-------------------*/ 
+.slide_pos, .banner {
+    position: relative;
+}
+
+button.slick-prev {
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    z-index: 1000;
+    font-size: 30%;
+}
+
+button.slick-next {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    z-index: 1000;
+}
+
+.slide_text {
+    position: absolute;
+    z-index: 1000;
+    left: 20%;
+    top: 10%;
+    color: #FFFFFF;
+}
+
+.countdown {
+    background-color: rgba(0, 0, 0, 0.30);
+    position: absolute;
+    z-index: 1000;
+    bottom:15%;
+    left:10%;
+}
+
+.wrapper-countdown {
+    max-width: 480px;
+    height: auto;
+    margin: auto;
+    padding: auto;
+}
+
+.countdown-number {
+    width: 100px;
+    float: left;
+    margin: 5px 10px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.countdown-number h1 {
+    font-size: 50px; 
+    line-height: 0px;
+}
+.countdown-number p {
+    font-size: 10px; 
+    margin-top:-15px;
+}
+
+.countdown-info {
+    text-align: center;
+    color: white;
+}
+
+.book {
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    padding: 10px 30px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.book:hover {
+    background-color: #ffe400;
+    border: 2px solid #ffe400;
+    color: black;
+    transition: 0.4s;
+
+}
+
+.email {
+    padding: 6px;
+}
+
+.submib {
+    padding: 6px 15px;
+    background-color: #ffe400;
+    color: black;
+    font-weight: bold;
+    border: 2px solid #ffe400; 
+    cursor: pointer;
+}
+
+.submib:hover {
+    background-color: black;
+    color: #ffe400;
+    transition: 0.4s;
+}
+
+@media all and (min-width: 320px) {
+    .wrapper-countdown {
+    max-width: 300px;
+    }
+    .countdown-number {
+    width: 55px;
+    }
+    .countdown {
+    width: 100%;
+    height: 100px;
+    bottom:-60%;
+    left: 0px;
+    padding: 10%;
+    }
+    .countdown-number {
+    display: none;
+    }
+    .slide_text{
+    display: none;
+    }
+
+    .email {
+    width: 67%;
+    }
+}
+ 
+/* Dành cho máy tính bảng chiều dọc */
+@media all and (min-width: 600px) {
+    .wrapper-countdown {
+        max-width: 505px;
+    }
+    .countdown-number {
+        display: block;
+        width: 100px;
+    }
+
+    .countdown-number h1 {
+        font-size: 30px; 
+        line-height: 0px;
+    }
+    .countdown-number p {
+        font-size: 10px; 
+        margin-top:-15px;
+    }
+    .email {
+    width: 37%;
+    }
+
+    .slide_text{
+        display: block;
+    }
+    .slide_text h4 {
+        font-size: 10px;
+        margin-bottom: -22px;
+    }
+    .slide_text h1 {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    .countdown {
+        width: 80%;
+        height: 100px;
+        position: absolute;
+        bottom:2%;
+        left:10%;
+        padding:0;
+    }
+/*    .banner {
+        height: 500px;
+    }*/
+
+    .slick-prev:before,
+    .slick-next:before
+    {
+        font-size: 50px !important;
+    }
+}
+ 
+/* Dành cho máy tính bảng chiều ngang */
+@media all and (min-width: 1024px) {
+        .countdown {
+        width: 80%;
+        height: 120px;
+        position: absolute;
+        bottom:2%;
+        left:10%;
+        padding:0;
+    }
+}
+ 
+/* Dành cho màn hình desktop */
+@media all and (min-width: 1280px) {
+
+    .wrapper-countdown {
+        max-width: 510px;
+    }
+    .countdown-number {
+        display: block;
+        width: 100px;
+    }
+
+    .countdown-number h1 {
+    font-size: 50px; 
+    line-height: 0px;
+    }
+    .countdown-number p {
+        font-size: 10px; 
+        margin-top:-15px;
+    }
+
+    .email {
+    width: 37%;
+    }
+
+    .slide_text{
+        display: block;
+    }
+    .slide_text h4 {
+        font-size: 30px;
+        font-weight: normal;
+        margin-bottom: -45px;
+    }
+    .slide_text h1 {
+        font-size: 60px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+    }
+    .countdown {
+        width: 80%;
+        height: 150px;
+        position: absolute;
+        bottom:-10%;
+        left:10%;
+        padding:0;
+    }
+    .banner {
+        height: 500px;
+    }
+
+    .slick-prev:before,
+    .slick-next:before
+    {
+        font-size: 50px !important;
+    }
+}
+
+/*------------------main-content----------------*/ 
+.content-news {
+    margin-top: 30%;
+}
+
+
+.date h1 {
+    color: #0190ff;
+    margin-top: 4px;
+}
+
+.date {
+    font-weight: 500;
+}
+
+.box2, .box3, .box5, .box6 {
+    position: relative;
+    overflow: hidden;
+}
+
+.box-text {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: #0090ff;
+    width: 100%;
+    height: 60px;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    display: grid;
+    align-items: center;
+}
+
+.box2-text {
+    position: absolute;
+    bottom: 60px;
+    left: 0px;
+    background-color: #ffe400;
+    width: 20%;
+    height: 30px;
+    color: black;
+    font-size: 18px;
+    padding: 0px 18px;
+    display: grid;
+    align-items: center;
+}
+
+.box3-text {
+    position: absolute;
+    bottom: 60px;
+    left: 0px;
+    background-color: #000000;
+    width: 55%;
+    height: 30px;
+    color: #ffe400;
+    font-size: 18px;
+    padding: 0px 18px;
+    display: grid;
+    align-items: center;
+}
+
+.box2 img:hover, .box3 img:hover, .box5 img:hover, .box6 img:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+@media all and (min-width: 320px) {
+    .date {
+    border-bottom: 1px dotted green;
+    }
+    .info {
+    padding-top: 20px;
+    }
+
+    .content-pics {
+      display: grid;
+      grid-template-columns:1fr;
+      grid-template-rows: 190px 190px 190px 190px 190px 190px 190px ;
+      grid-column-gap :25px;
+      grid-row-gap: 25px;
+      justify-content: center;
+      padding: 50px 0px;
+    }
+
+    .box2-text, .box3-text  {
+        font-size: 12px;
+        padding: 0px 10px;
+    }
+}
+ 
+/* Dành cho máy tính bảng chiều dọc */
+@media all and (min-width: 600px) {
+    .content-news {
+    margin-top: 0%;
+    }
+
+    .content-pics {
+    padding: 50px 0px;
+    display: grid;
+    grid-template-columns:2fr 2fr;
+    grid-template-rows: 280px 280px 280px;
+    grid-column-gap :15px;
+    grid-row-gap: 15px;
+    justify-content: center;
+    }
+
+    .box2, .box7 {
+       grid-column: 2/4 ;
+    }
+}
+ 
+/* Dành cho máy tính bảng chiều ngang */
+@media all and (min-width: 1024px) {
+
+}
+ 
+/* Dành cho màn hình desktop */
+@media all and (min-width: 1280px) {
+    .content-news {
+    margin-top: 8%;
+    }
+
+    .left-content {
+    width: 170px;
+    height: auto;
+    margin: auto;
+    float: left;
+     padding: 0px 50px;
+    }
+
+    .right-content {
+    border-left: 1px solid #d9d9d9;
+    padding: 0px 50px;
+    width: 900px;
+    height: auto;
+    margin: auto;
+    float: left;
+    }
+
+    .right-content h1 {
+        font-size: 30px;
+    }
+
+    .date {
+    border-bottom: none;
+    font-size: 20px;
+    }
+
+    .date h1 {
+    font-size: 40px;
+    }
+
+    .info {
+    margin-top: -45px;
+    }
+
+    .content-pics {
+    padding: 50px 0px;
+    display: grid;
+    grid-template-columns:1.5fr 2fr 2fr 3fr;
+    grid-template-rows: 280px 280px;
+    grid-column-gap :15px;
+    grid-row-gap: 15px;
+    justify-content: center;
+    }
+
+    .box2 {
+       grid-column: 2/4 ;
+    }
+
+    .box7 {
+       grid-column: 4;
+    }
+    
+    .box2-text, .box3-text {
+        font-size: 18px;
+        padding: 0px 18px;
+    }
+
+}
+/*---------------------footer-------------------*/ 
+.footer {
+    clear: both;
+    position: relative;
+    background-color: #1f2d39;
+    color: #FFFFFF;
+    padding: 20px 0px;
+}
+
+.text-input {
+    margin-bottom: 5px;
+}
+
+.submib.subcribe {
+    margin: 20px 0px;
+    border-radius: 5px;
+}
+
+.footer h1 {
+    color: #0090ff;
+}
+
+#icon {
+    height: 30px;
+    width: 30px;
+    padding:7px;
+    border-radius: 50%;
+    margin-right: 20px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    clear: both;
+    opacity: 0.8;
+}
+
+#icon:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+@media all and (min-width: 320px) {
+}
+ 
+/* Dành cho máy tính bảng chiều dọc */
+@media all and (min-width: 600px) {
+
+}
+ 
+/* Dành cho máy tính bảng chiều ngang */
+@media all and (min-width: 1024px) {
+
+}
+ 
+/* Dành cho màn hình desktop */
+@media all and (min-width: 1280px) {
+    .footer {
+        background: url(../image/layer_40.jpg);
+    }
+
+    .footer-left {
+        width: 500px;
+        height: auto;
+        margin: auto;
+        padding: 0px 40px;
+        float: left;
+        z-index: 101;
+    }
+
+    .footer-right {
+        width: 560px;
+        height: auto;
+        margin: auto;
+        padding: 20px 40px 0px 40px;
+        float: left;
+        z-index: 102;
+    }
+
+    .footer-input {
+        width: 100%;
+        height: 30px;
+    }
+
+    .layer-footer {
+        background-color: rgba(28, 43, 54, 0.48);
+        width: 1077px;
+        height: 320px;
+        padding: auto;
+        position: absolute;
+        top: 0%;
+        left: 10%;
+        z-index: 10;
+    }
+
+}
