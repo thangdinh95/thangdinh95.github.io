@@ -618,6 +618,7 @@ button.slick-next {
 @media all and (min-width: 1280px) {
     .footer {
         background: url(../image/layer_40.jpg);
+        height: 350px;
     }
 
     .footer-left {
@@ -627,6 +628,7 @@ button.slick-next {
         padding: 0px 40px;
         float: left;
         z-index: 101;
+        position: absolute;
     }
 
     .footer-right {
@@ -636,6 +638,19 @@ button.slick-next {
         padding: 20px 40px 0px 40px;
         float: left;
         z-index: 102;
+        position: absolute;
+        right: 10%;
+    }
+
+    .footer-bottom {
+        width: 80%;
+        height: auto;
+        margin: auto;
+        z-index: 103;
+        position: absolute;
+        bottom: 0%;
+        left: 10%;
+        padding: 20px 40px 20px 40px;
     }
 
     .footer-input {
@@ -646,7 +661,7 @@ button.slick-next {
     .layer-footer {
         background-color: rgba(28, 43, 54, 0.48);
         width: 1077px;
-        height: 320px;
+        height: 350px;
         padding: auto;
         position: absolute;
         top: 0%;
