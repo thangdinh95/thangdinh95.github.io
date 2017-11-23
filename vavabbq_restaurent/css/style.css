@@ -1327,10 +1327,20 @@ footer a img:hover {
 
 
     /*CONCEPT*/
+    .img-concept1 {
+        display: none;
+    }
+
     .concept {
         width: 100%;
-        height: 80%;
-        padding: 35px 0px;
+        height: 460px;
+        padding: 7px 0px;
+        background-color: inherit;
+        background-image: none;
+    }
+
+    .concept .button-center {
+        display: none;
     }
 
     .title {
@@ -1380,6 +1390,18 @@ footer a img:hover {
         font-size: 20px;
     }
 
+    .border {
+        width: 85%;
+        height: 150px;
+    }
+
+    .des {
+        font-size: 15px;
+        width: 100%;
+        top: 100px;
+
+    }
+
     /*RESERVE*/
     .order {
         width: 100%;
@@ -1391,7 +1413,7 @@ footer a img:hover {
         border: 2px solid black;
         border-radius: 4px;
         padding: 30px;
-        margin: 80px 10px;
+        margin: 15px 10px;
     }
     
     .modal .border-reservation {
@@ -1415,8 +1437,7 @@ footer a img:hover {
 
     /*final PIC*/
     .final-pic{
-        margin-top: 10px;
-        position: relative;
+        display: none;
     }
 
     .finalpic-text {
@@ -1589,11 +1610,26 @@ footer a img:hover {
     }
 
     /*CONCEPT*/
+    .concept {
+        height: 400px;
+        padding: 7px 0px;
+        background-color: inherit;
+        background-image: none;
+    }
+
     .knot {
         position: absolute;
         top: -26px;
         left:-39px;
         height: 190px;
+    }
+    
+    .concept .button-center {
+        display: none;
+    }
+
+    .menu-wrap {
+        margin: 90px 0px 0px 0px;
     }
 
     .concept-text {
@@ -1601,8 +1637,11 @@ footer a img:hover {
     }
 
     .img-concept1 {
-        width: 100%;
-        height: 80px; 
+        display: none; 
+    }
+
+    .concept p {
+        font-size: 15px;
     }
 
     /*RESERVATION*/
@@ -1624,21 +1663,9 @@ footer a img:hover {
 }
 
     /*FINAL PIC*/
-    .finalpic-text {
-        position: absolute;
-        top: -10px;
-        left: 15px;
-        color: white;
-        padding: 20px 0px;
-    }
 
-    .finalpic-title {
-        font-size: 10px;
-        padding-bottom: 4px;
-    }
-
-    .finalpic-des {
-        font-size: 8px;
+    .final-pic{
+        display: none;
     }
 
     /*============[ABOUT]===========*/
