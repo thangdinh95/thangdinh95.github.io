@@ -99,7 +99,10 @@ textarea {
 .btn-slide {
   background-color: #cecece;
   border: 2px solid #cecece;
-  color: #000000; }
+  color: #000000;
+  font-size: 12px;
+  padding: 13px;
+  margin-left: 14px; }
   .btn-slide:hover {
     background-color: transparent; }
 
