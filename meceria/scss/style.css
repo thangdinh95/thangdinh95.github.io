@@ -322,7 +322,7 @@ textarea {
   .slide .btn-wrapper .btn--slide {
     position: absolute;
     bottom: 135px;
-    left: 10px; }
+    left: 0px; }
 .slide .carousel-indicators li {
   background-color: #7b7b7b; }
 .slide .carousel-indicators .active {
