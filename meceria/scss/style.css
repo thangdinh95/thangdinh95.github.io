@@ -491,7 +491,8 @@ textarea {
       font-size: 30px; }
   #hotproduct .date, #hotproduct .minute, #hotproduct .hour, #hotproduct .second {
     border: 1px solid #000000;
-    text-align: center; }
+    text-align: center;
+    padding: 15px 0px; }
   #hotproduct .minute, #hotproduct .second, #hotproduct .hour {
     border-left-width: 0px; }
 

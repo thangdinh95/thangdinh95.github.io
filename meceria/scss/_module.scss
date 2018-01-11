@@ -402,6 +402,7 @@
   .date, .minute, .hour, .second {
     border: 1px solid $color-black;
     text-align: center;
+    padding: 15px 0px;
   }
 
   .minute, .second, .hour {
