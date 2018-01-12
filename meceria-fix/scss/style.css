@@ -647,6 +647,12 @@ textarea {
 #news {
   padding: 30px 0px;
   height: 710px; }
+  #news hr {
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 0;
+    border-top: 1px solid #333232;
+    width: 44%; }
   #news .box-news {
     margin: 55px 0px; }
   #news .box-layer {
@@ -661,7 +667,9 @@ textarea {
     #news .datebox .text-blue {
       font-size: 60px;
       font-weight: 900;
-      margin-bottom: 0px; }
+      margin-bottom: 0px;
+      margin-top: 20px;
+      line-height: 64px; }
   #news .box1, #news .box2 {
     position: relative;
     margin-left: 75px; }
