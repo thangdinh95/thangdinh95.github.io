@@ -10,6 +10,7 @@
     .nav-link {
       color: $color-grey;
       padding: 16px 8px;
+      transition: 0.4s;
       &:hover {
         color: $color-white;
       }

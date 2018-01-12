@@ -268,7 +268,8 @@ textarea {
   border-bottom: 1px solid #7b7b7b; }
 .topnav .nav-item .nav-link {
   color: #7b7b7b;
-  padding: 16px 8px; }
+  padding: 16px 8px;
+  transition: 0.4s; }
   .topnav .nav-item .nav-link:hover {
     color: #ffffff; }
 .topnav input.form-control.form-topnav {
