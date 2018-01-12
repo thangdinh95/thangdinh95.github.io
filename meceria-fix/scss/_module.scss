@@ -174,7 +174,6 @@
 /** slide **/
 .slide {
   .carousel-inner {
-    // position: relative;
   }
   .btn-wrapper {
     position: relative;
@@ -184,14 +183,7 @@
       left: 0px;
     }
   }
-  
-  // .carousel-control-prev-icon {
-  //   background: url('../images/control-btn.png') no-repeat;
-  //   background-position: -23px -18.98828125px ;
-  //   width: 8px;
-  //   height: 14px;
-  //   border: 1px solid red;
-  // }
+
   .carousel-indicators {
     li {
       background-color: $color-grey;
