@@ -823,7 +823,8 @@ textarea {
         top: 4px; }
   #footer .footer-tab li {
     list-style-type: none;
-    transition: 0.4s; }
+    transition: 0.4s;
+    line-height: 32px; }
     #footer .footer-tab li:hover {
       list-style-type: square;
       color: #24c5d9;

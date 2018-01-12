@@ -830,6 +830,7 @@
     li {
        list-style-type: none;
         transition: 0.4s;
+        line-height: 32px;
       &:hover {
       list-style-type: square;
       color: $color-blue;
