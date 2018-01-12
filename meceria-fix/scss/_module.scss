@@ -670,7 +670,12 @@
 
   .newsletter-input{
       margin-top: 5px;
-      background-color: red;
+    input.form-control::placeholder {
+        color:#dddddd;
+        font-size: 14px;
+        font-style: italic;
+        font-weight: 300;
+      }
   }
 }
 

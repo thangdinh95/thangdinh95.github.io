@@ -722,8 +722,12 @@ textarea {
     #newsletter .newsletter-wrap span .mail {
       margin-right: 10px; }
   #newsletter .newsletter-input {
-    margin-top: 5px;
-    background-color: red; }
+    margin-top: 5px; }
+    #newsletter .newsletter-input input.form-control::placeholder {
+      color: #dddddd;
+      font-size: 14px;
+      font-style: italic;
+      font-weight: 300; }
 
 /** FOOTER **/
 #footer {
