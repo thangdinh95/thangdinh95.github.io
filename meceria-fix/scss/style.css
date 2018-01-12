@@ -139,8 +139,9 @@ textarea {
   color: #b4b4b4; }
   .btn-nletter:hover {
     color: white;
-    background-color: #24c5d9;
-    border: 2px solid #24c5d9; }
+    background-color: #cecece;
+    border: 2px solid #cecece;
+    color: #000000; }
 
 .btn-slide {
   background-color: #cecece;
