@@ -381,7 +381,8 @@ textarea {
     font-size: 13px;
     color: #8e8e8e; }
     .navbar-hover .navbar-hover-describe a {
-      margin-left: -3px; }
+      margin-left: -3px;
+      padding: 0; }
 
 .nav-item-hover {
   position: relative; }
