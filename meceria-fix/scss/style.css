@@ -281,8 +281,8 @@ textarea {
   border-radius: 0px;
   height: 30px; }
   .topnav input.form-control.form-topnav:focus {
-    background-color: white;
-    color: black; }
+    background-color: transparent;
+    color: white; }
 .topnav button.btn.btn-search {
   font-size: 14px;
   border-color: transparent;
