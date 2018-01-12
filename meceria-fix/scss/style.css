@@ -479,13 +479,20 @@ textarea {
 #topproduct .item {
   position: relative;
   border: 3px solid transparent;
-  cursor: pointer; }
+  cursor: pointer;
+  margin-bottom: -6px; }
+  #topproduct .item:hover:before {
+    position: absolute;
+    content: ' ';
+    width: 100%;
+    height: 100%;
+    border: 3px solid #24c5d9;
+    top: 0px;
+    left: 0px; }
   #topproduct .item .btn-icon {
     display: none; }
-  #topproduct .item:hover {
-    border: 3px solid #24c5d9; }
-    #topproduct .item:hover .btn-icon {
-      display: block; }
+  #topproduct .item:hover .btn-icon {
+    display: block; }
   #topproduct .item .detail {
     text-align: center;
     margin: 28px 0px; }

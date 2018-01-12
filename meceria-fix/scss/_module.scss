@@ -323,12 +323,24 @@
     position: relative;
     border: 3px solid transparent;
     cursor: pointer;
+    margin-bottom: -6px;
+      &:hover {
+      &:before {
+      position: absolute;
+      content: ' ';
+      width: 100%;
+      height: 100%;
+      border: 3px solid $color-blue;
+      top: 0px;
+      left: 0px;
+    }
+  }
     .btn-icon {
         display: none; //tat
       } 
 
     &:hover {
-      border: 3px solid $color-blue;
+      // border: 3px solid $color-blue;
       .btn-icon {
           display: block;
       }
