@@ -21,6 +21,7 @@
       border-color: transparent;
       font-size: 12px;
       font-weight: 300;
+      border-radius: 0px;
       &:focus {
         background-color: white;
         color: black;
@@ -114,6 +115,7 @@
     .nav-link {
       padding-left:15px;
       padding-right: 15px;
+      padding-bottom:10px;
     }
   }
 }
@@ -123,7 +125,7 @@
   width: 673px;
   position: absolute;
   z-index: 2000;
-  top:108px;
+  top:86px;
   left: -200px;
   padding:40px;
   display: none;
@@ -185,29 +187,88 @@
     }
   }
 
-  .carousel-indicators {
-    li {
-      background-color: $color-grey;
-    }
-    :hover {
-      background-color: red;
-    }
-  }
-  .carousel-control-prev i, .carousel-control-next i{
-    border: 1px solid #ededee;
-    background-color: #ededee;
-    padding: 15px 20px;
-    font-size: 20px;
-  }
+//   .slide1, .slide2, .slide3, .slide4{
+//   background: url('../images/slide-icon.png') no-repeat;
+// }
 
-  .carousel-control-prev, .carousel-control-next {
-    color: #cdcdcd;
+// .slide1{
+//   background-position: -68px -16.00000762939453px ;
+//   width: 12px;
+//   height: 21px;
+// }
+
+// .slide2{
+//   background-position: -168px -15.000007629394531px ;
+//   width: 12px;
+//   height: 21px;
+// }
+
+// .slide3{
+//   background-position: -267px -16.00000762939453px ;
+//   width: 12px;
+//   height: 21px;
+// }
+
+// .slide4{
+//   background-position: -369px -15.000007629394531px ;
+//   width: 12px;
+//   height: 21px;
+// }
+.carousel-control-prev, .carousel-control-next {
     width: 8%;
+}
+.carousel-control-prev-icon {
+    background: url(../images/slide-icon.png) no-repeat;
+    background-position: -151px 0px;
+    width: 12px;
+    height: 21px;
+    border: 1px solid #ededee;
+    padding: 25px;
+    background-color: #ededee;
 
     &:hover {
-      color: $color-blue;
+    background-position: -51px -1.000008px;
     }
-  }
+}
+
+.carousel-control-next-icon {
+    background: url(../images/slide-icon.png) no-repeat;
+    background-position: -350px -0.000008px; ;
+    width: 12px;
+    height: 21px;
+    border: 1px solid #ededee;
+    padding: 25px;
+    background-color: #ededee;
+
+    &:hover {
+    background-position: -248px -1.000008px; ;
+    }
+}
+
+
+  // .carousel-indicators {
+  //   li {
+  //     background-color: $color-grey;
+  //   }
+  //   :hover {
+  //     background-color: red;
+  //   }
+  // }
+  // .carousel-control-prev i, .carousel-control-next i{
+  //   border: 1px solid #ededee;
+  //   background-color: #ededee;
+  //   padding: 15px 20px;
+  //   font-size: 20px;
+  // }
+
+  // .carousel-control-prev, .carousel-control-next {
+  //   color: #cdcdcd;
+  //   width: 8%;
+
+  //   &:hover {
+  //     color: $color-blue;
+  //   }
+  // }
 }
 
 /** SERVICE **/ 
@@ -748,6 +809,11 @@
   .footer-info {
     padding-bottom: 30px;
     margin-left: 20px;
+    ul {
+      li:nth-child(4){
+        font-style: italic;
+      }
+    }
     li {
       margin-bottom: 20px;
     }

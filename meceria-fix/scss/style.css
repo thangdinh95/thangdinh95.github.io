@@ -276,7 +276,8 @@ textarea {
   background-color: transparent;
   border-color: transparent;
   font-size: 12px;
-  font-weight: 300; }
+  font-weight: 300;
+  border-radius: 0px; }
   .topnav input.form-control.form-topnav:focus {
     background-color: white;
     color: black; }
@@ -341,14 +342,15 @@ textarea {
 
 .navbar-expand-lg .navbar-nav .nav-link {
   padding-left: 15px;
-  padding-right: 15px; }
+  padding-right: 15px;
+  padding-bottom: 10px; }
 
 .navbar-hover {
   background-color: #ffffff;
   width: 673px;
   position: absolute;
   z-index: 2000;
-  top: 108px;
+  top: 86px;
   left: -200px;
   padding: 40px;
   display: none;
@@ -391,20 +393,28 @@ textarea {
     position: absolute;
     bottom: 135px;
     left: 0px; }
-.slide .carousel-indicators li {
-  background-color: #7b7b7b; }
-.slide .carousel-indicators :hover {
-  background-color: red; }
-.slide .carousel-control-prev i, .slide .carousel-control-next i {
-  border: 1px solid #ededee;
-  background-color: #ededee;
-  padding: 15px 20px;
-  font-size: 20px; }
 .slide .carousel-control-prev, .slide .carousel-control-next {
-  color: #cdcdcd;
   width: 8%; }
-  .slide .carousel-control-prev:hover, .slide .carousel-control-next:hover {
-    color: #24c5d9; }
+.slide .carousel-control-prev-icon {
+  background: url(../images/slide-icon.png) no-repeat;
+  background-position: -151px 0px;
+  width: 12px;
+  height: 21px;
+  border: 1px solid #ededee;
+  padding: 25px;
+  background-color: #ededee; }
+  .slide .carousel-control-prev-icon:hover {
+    background-position: -51px -1.000008px; }
+.slide .carousel-control-next-icon {
+  background: url(../images/slide-icon.png) no-repeat;
+  background-position: -350px -0.000008px;
+  width: 12px;
+  height: 21px;
+  border: 1px solid #ededee;
+  padding: 25px;
+  background-color: #ededee; }
+  .slide .carousel-control-next-icon:hover {
+    background-position: -248px -1.000008px; }
 
 /** SERVICE **/
 #service {
@@ -777,6 +787,8 @@ textarea {
   #footer .footer-info {
     padding-bottom: 30px;
     margin-left: 20px; }
+    #footer .footer-info ul li:nth-child(4) {
+      font-style: italic; }
     #footer .footer-info li {
       margin-bottom: 20px; }
     #footer .footer-info .footer-span {
