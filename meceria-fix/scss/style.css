@@ -404,7 +404,9 @@ textarea {
   padding: 25px;
   background-color: #ededee; }
   .slide .carousel-control-prev-icon:hover {
-    background-position: -51px -1.000008px; }
+    background-position: -51px -1.000008px;
+    background-color: #ffffff;
+    border: 1px solid #ededee; }
 .slide .carousel-control-next-icon {
   background: url(../images/slide-icon.png) no-repeat;
   background-position: -350px -0.000008px;
@@ -414,7 +416,9 @@ textarea {
   padding: 25px;
   background-color: #ededee; }
   .slide .carousel-control-next-icon:hover {
-    background-position: -248px -1.000008px; }
+    background-position: -248px -1.000008px;
+    background-color: #ffffff;
+    border: 1px solid #ededee; }
 
 /** SERVICE **/
 #service {
