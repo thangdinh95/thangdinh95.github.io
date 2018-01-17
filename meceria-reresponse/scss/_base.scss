@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: $color-black;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body *{
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+a {
+  color: $color-black;
+  &:hover, &:focus {
+    text-decoration: none;
+  }
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+input {
+  outline: none;
+}
+
+em {
+  color: $color-blue;
+}
+
+textarea {
+  resize: none;
+  outline: none;
+}
+
