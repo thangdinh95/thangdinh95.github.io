@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Meceria</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="scss/style.css">
+  <link rel="stylesheet" type="text/css" href="fonts/css/fontawesome-all.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,700,800" rel="stylesheet">
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- start TOP NAV     -->
+    <div class="topnav">
+      <div class="topnav-menu">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-10">
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Tài khoản của tôi</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Danh sách ưa thích</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Giỏ hàng</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Đăng nhập</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Đăng kí</a>
+                </li>              
+              </ul>
+            </div>
+
+            <div class="col-sm-2 padding-0">
+              <ul class="nav">
+                <li class="nav-item ml-auto">
+                  <div class="input-group pt-1">
+                    <input type="text" class="form-control form-topnav" placeholder="Tìm kiếm..." aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                      <button class="btn btn-search" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end TOP NAV -->
+
+    <!-- start TOP NAV mobile -->
+    <div class="topnav-mobile">
+      <div class="topnav-menu">
+        <div class="container">
+          <div class="row">
+            <div class="col-3 padding-0">
+              <button class="topnav-user" type="button" data-toggle="collapse" data-target="#topnavSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class=" navbar-toggler-icon navbar-user"></span>
+              </button>
+            </div>
+
+            <div class="col-9 padding-0">
+              <ul class="nav">
+                <li class="nav-item ml-auto">
+                  <div class="input-group pt-1">
+                    <input type="text" class="form-control form-topnav" placeholder="Tìm kiếm..." aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                      <button class="btn btn-search" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="collapse navbar-collapse" id="topnavSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Tài khoản của tôi<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Danh sách ưa thích</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Giỏ hàng</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Đăng nhập</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Đăng kí</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end TOP NAV mobile-->
+
+
+    <!-- start NAVBAR -->
+    <nav>
+      <div id = "header" class="navbar navbar-expand-lg">
+        <div class="container navbar-wrap">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>     
+
+          <a class="navbar-brand" href="#"><img src="images/Meceria.png"></a>
+
+          <ul class="navbar-nav nav-cart-sm">
+            <li class="nav-item nav-item-cart">
+              <a class="nav-link nav-cart handbag" href="#"></a>
+            </li>
+          </ul>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">TRANG CHỦ <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">GIỚI THIỆU</a>
+              </li>
+              <li class="nav-item nav-item-hover text-center">
+                <a class="nav-link" href="#">SẢN PHẨM <br> <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                <div class="navbar-hover">
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <div class="navbar-hover-title">WOMEN</div>
+                      <div class="navbar-hover-describe">
+                        <ul>
+                          <li><a href="#">Áo khoác</a></li>
+                          <li><a href="#">Bộ áo liền quần</a></li>
+                          <li><a href="#">Dresses</a></li>
+                          <li><a href="#">Quần / Váy</a></li>
+                          <li><a href="#">Quần short</a></li>
+                          <li><a href="#">Quần jean</a></li>
+                          <li><a href="#">Đồ đan</a></li>
+                          <li><a href="#">Áo nỉ</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="navbar-hover-title">MEN</div>
+                      <div class="navbar-hover-describe">
+                        <ul>
+                          <li><a href="#">Áo cánh / Áo sơ mi</a></li>
+                          <li><a href="#">Túi xách &#38; Balô</a></li>
+                          <li><a href="#">Khăn quàng cổ và Fourlards</a></li>
+                          <li><a href="#">Dệt kim Hats  &#38; Gloves</a></li>
+                          <li><a href="#">Vớ  &#38; Socks</a></li>
+                          <li><a href="#">Jewerly</a></li>
+                          <li><a href="#">Bị bảo vệ</a></li>
+                          <li><a href="#">Giày</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="navbar-hover-title">KIDS</div>
+                      <div class="navbar-hover-describe">
+                        <ul>
+                          <li><a href="#">Áo cánh / Áo sơ mi</a></li>
+                          <li><a href="#">Túi xách  &#38; Balô</a></li>
+                          <li><a href="#">Khăn quàng cổ và Fourlards</a></li>
+                          <li><a href="#">Dệt kim Hats  &#38; Gloves</a></li>
+                          <li><a href="#">Vớ  &#38; Socks</a></li>
+                          <li><a href="#">Jewerly</a></li>
+                          <li><a href="#">Bị bảo vệ</a></li>
+                          <li><a href="#">Giày</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="nav-item nav-item-hover text-center">
+                <a class="nav-link" href="#">TIN TỨC <br> <i class="fa fa-angle-down angle-down" aria-hidden="true"></i></a>
+              </li>         
+              <li class="nav-item">
+                <a class="nav-link" href="#">BẢN ĐỒ</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">LIÊN HỆ</a>
+              </li>
+            </ul>
+
+            <ul class="nav-cart-lg navbar-nav">
+              <li class="nav-item-cart mx-auto">
+                <a class="nav-cart handbag" href="#"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end NAVBAR -->
+
+    <!-- start SLIDE -->
+    <section id ="slide">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/slidepic.jpg" alt="First slide">
+            <div class="container btn-wrapper">
+              <div class="btn--slide">
+                <button class="btn btn-slide">MUA HÀNG</button>
+                <button class="btn btn-slide">XEM CHI TIẾT</button>
+                <button class="btn btn-slide">LOOKBOOK</button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/slidepic.jpg" alt="Second slide">
+            <div class="container btn-wrapper">
+              <div class="btn--slide">
+                <button class="btn btn-slide">MUA HÀNG</button>
+                <button class="btn btn-slide">XEM CHI TIẾT</button>
+                <button class="btn btn-slide">LOOKBOOK</button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/slidepic.jpg" alt="Third slide">
+            <div class="container btn-wrapper">
+              <div class="btn--slide">
+                <button class="btn btn-slide">MUA HÀNG</button>
+                <button class="btn btn-slide">XEM CHI TIẾT</button>
+                <button class="btn btn-slide">LOOKBOOK</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+    <!-- end SLIDE -->
+
+    <!-- start SERVICE -->
+    <section id="service">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-6">
+            
+            <div class="service-icon"><i class="send"></i></div>      
+            <div class="service-info">
+              <b> MIỄN PHÍ VẬN CHUYỂN </b> <br>
+              <span class="text-muted"> <i>Bán kính 20km </i></span>
+            </div>
+          </div>
+
+
+          <div class="col-md-3 col-6 ">
+            <div class="service-icon"> <i class="repetiotion-copy"></i> </div>
+            <div class="service-info">
+              <b> ĐỔI TRẢ HÀNG </b> <br>
+              <span class="text-muted"> <i> Trong vòng 30 ngày</i> </span> 
+            </div>
+          </div>
+
+          <div class="col-md-3 col-6">
+            <div class="service-icon"> <i class="star"></i></div>
+            <div class="service-info">
+              <b> GIẢM GIÁ 50% </b> <br>
+              <span class="text-muted"> <i>Trên tất cả mặt hàng </i></span>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-6">
+            <div class="service-icon"> <i class="users"></i></div>
+            <div class="service-info">
+              <b> HỖ TRỢ KHÁCH HÀNG </b><br>
+              <span class="text-muted"><i> (04) 66742332 </i></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </section>
+    <!-- end SERVICE -->
+
+    <!-- start TOP PRODUCT -->
+    <section id="topproduct">
+      <div class="main-title"> SẢN PHẨM BÁN CHẠY </div>
+      <div class="main-title-btn"> <i class="copy-4" ></i> <i class="copy-7" ></i> </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3 col-6">
+            <div class="item">  
+              <img src="images/Layer 40.jpg" alt="áo sơ mi nam">
+              <img class="ribbon" src="images/Hot.png">
+              <div class="detail">
+                <a href="" class="text-center" title="Áo sơ mi nam">Áo sơ mi Nam </a>
+                <p class="text-center"><span class="text-blue">120.000<sup>đ</sup></span><span class="text-cross">330.000<sup>đ</sup></span></p>
+                <div class="row">
+                  <div class="col-12">
+                    <div class="row">
+                      <div class="col-3 icon-l" ><button class="btn btn-icon"><i class="fa fa-heart"></i></button></div>
+                      <div class="col-6 padding-0"><button class="btn">MUA HÀNG</button></div>
+                      <div class="col-3 icon-r">
+                        <div class="icon-r-compare">So sánh</div>
+                        <button class="btn btn-icon"><i class="fa fa-random"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>                      
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="images/Layer 41.jpg" alt="đầm cúp ngực F21">
+              <div class="detail">
+                <a href="" class="text-center" title="Áo sơ mi nam">Đầm cúp ngực F21</a>
+                <p class="text-center"><span class="text-blue">455.000<sup>đ</sup></span></p>
+                <div class="row">
+                  <div class="col-12">
+                    <div class="row">
+                      <div class="col-3 icon-l" ><button class="btn btn-icon"><i class="fa fa-heart"></i></button></div>
+                      <div class="col-6 padding-0"><button class="btn">MUA HÀNG</button></div>
+                      <div class="col-3 icon-r">
+                        <div class="icon-r-compare">So sánh</div>
+                        <button class="btn btn-icon"><i class="fa fa-random"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-3 col-6">
+            <div class="item">
+              <img src="images/Layer 41.jpg" alt="áo sơ mi bò nữ">
+              <img class="ribbon" src="images/New.png">
+              <div class="detail">
+                <a href="" class="text-center" title="Áo sơ mi nam">Áo sơ mi bò nữ </a>
+                <p class="text-center"><span class="text-blue">170.000<sup>đ</sup></span></p>
+                <div class="row">
+                  <div class="col-12">
+                    <div class="row">
+                      <div class="col-3 icon-l" ><button class="btn btn-icon"><i class="fa fa-heart"></i></button></div>
+                      <div class="col-6 padding-0"><button class="btn">MUA HÀNG</button></div>
+                      <div class="col-3 icon-r">
+                        <div class="icon-r-compare">So sánh</div>
+                        <button class="btn btn-icon"><i class="fa fa-random"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="images/Layer 41.jpg" alt="Đầm cúp ngực F21">
+              <div class="detail">
+                <a href="" class="text-center" title="Áo sơ mi nam">Đầm cúp ngực F21 </a>
+                <p class="text-center"><span class="text-blue">455.000<sup>đ</sup></span></p>
+                <div class="row">
+                  <div class="col-12">
+                    <div class="row">
+                      <div class="col-3 icon-l" ><button class="btn btn-icon"><i class="fa fa-heart"></i></button></div>
+                      <div class="col-6 padding-0"><button class="btn">MUA HÀNG</button></div>
+                      <div class="col-3 icon-r">
+                        <div class="icon-r-compare">So sánh</div>
+                        <button class="btn btn-icon"><i class="fa fa-random"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>           
+          </div>
+
+          <div class="col-sm-6 col-12">
+            <img class="img-large" src="images/Layer 79a.jpg" alt="Sandal Zara 2015">
+            <div class="detail-large">
+              <a href="" class="detail-title" title="Áo sơ mi nam">Sandal Zara 2015</a>
+              <p class="detail-describe"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><span><i class="fa fa-star"></i>(1.200 lượt xem)</span> </p>
+              <p class="detail-price"> 720.000<sup>đ</sup></p>
+              <button class="btn"> MUA HÀNG </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- end TOP PRODUCT -->
+
+    <!-- start ADS -->
+    <section id="ads">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <img src="images/Layer 94 copy.jpg" alt="Giầy nam">
+          </div>
+          <div class="col-sm-6">
+            <img src="images/Layer 21.jpg" alt="Giầy nam Meceria">
+          </div>
+          <div class="col-sm-3">
+            <img src="images/Layer 52.jpg" alt="Giầy da">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end ADS -->
+
+    <!-- start ALL PRODUCT -->
+    <section id="allproduct">
+      <div class="main-title"> TẤT CẢ SẢN PHẨM</div>
+      <div class="main-title-btn"> <i class="copy-4" ></i> <i class="copy-7" ></i> </div>
+      <div class="product-btn"> <a href="">NAM</a> <i class="fa fa-star" aria-hidden="true"></i> <a href="">NỮ</a> <i class="fa fa-star" aria-hidden="true"></i> <a href="">TRẺ EM</a> </div>
+      <div class="allproduct-background">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-3 col-6">
+              <div class="item">
+                <img src="images/Layer 58.jpg" alt="Áo sơ mi bò nữ">
+                <div class="detail">
+                  <a href="" title="Áo sơ mi nam">Đầm cúp ngực F21</a>
+                  <p class="text-center"><span class="text-blue">455.000<sup>đ</sup></span></p>
+                  <button class="btn">MUA HÀNG</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-6">
+              <div class="item">
+                <img src="images/Layer 591.jpg" alt="Áo sơ mi bò nữ">
+                <div class="detail">
+                  <a href="" title="Áo sơ mi nam">Đầm cúp ngực F21</a>
+                  <p class="text-center"><span class="text-blue">455.000<sup>đ</sup></span></p>
+                  <button class="btn">MUA HÀNG</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-6">
+              <div class="item">
+                <img src="images/Layer 60.jpg" alt="Đầm cúp ngực">
+                <div class="detail">
+                  <a href="" title="Áo sơ mi nam">Đầm cúp ngực F21</a>
+                  <p class="text-center"><span class="text-blue">455.000<sup>đ</sup></span></p>
+                  <button class="btn">MUA HÀNG</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-6">
+              <div class="item">
+                <img src="images/Layer 61.jpg" alt="Áo sơ mi bò nữ">
+                <div class="detail">
+                  <a href="" title="Áo sơ mi nam">Đầm cúp ngực F21</a>
+                  <p class="text-center"><span class="text-blue">455.000<sup>đ</sup></span></p>
+                  <button class="btn">MUA HÀNG</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end ALL PRODUCT -->
+
+    <!-- start HOT PRODUCT -->
+    <section id="hotproduct">
+      <div class="main-title main-title-hotproduct">SẢN PHẨM HOT</div>
+      <div class="container">
+        <div class="grid-date">
+          <div class="row">
+            <div class="col-3 date"><b>220</b><p>Ngày</p></div>
+            <div class="col-3 minute"><b>48</b><p>Giờ</p></div>
+            <div class="col-3 hour "><b>60</b><p>Phút</p></div>
+            <div class="col-3 second"><b>12</b><p>Giây</p></div>
+          </div>
+
+          <div class="hotproduct-detail">
+            <p class="text-center"><span class="text-black">120.000<sup>đ</sup></span><span class="text-cross">330.000<sup>đ</sup></span></p>
+            <p>Giảm tới 30<sup>%</sup></p>
+          </div>
+          
+          <div class="hot-product-btn text-center">
+            <button class="btn btn-black">MUA HÀNG</button>
+            <button class="btn btn-black">XEM CHI TIẾT</button>
+            <button class="btn btn-black">LOOKBOOK</button>
+          </div>
+        </div>
+      </div>
+      <div class="container hotproduct-wrap">
+        <img class="hotproduct-img-left" src="images/Layer 70.png">
+        <img class="hotproduct-img-right" src="images/Layer 71.png">
+      </div>
+    </section>
+    <!-- end HOT PRODUCT -->
+
+    <!-- start OTHER PRODUCT -->
+    <section id="otherproduct">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="main-title main-title-otherproduct">SẢN PHẨM MỚI</div>
+            <div class="main-title-btn"> <i class="copy-4" ></i> <i class="copy-7" ></i> </div>
+            <div class="otherproduct-item">
+              <div class="row">
+                <div class="col-sm-6 col-6"><img src="images/Layer 402.jpg" alt="Áo sơ mi nam"></div>
+                <div class="col-sm-6 col-6">
+                  <a href="" title="Áo sơ mi nam">Áo sơ mi nam</a>
+                  <p><span class="text-blue">720.000<sup>đ</sup></span><span class="text-cross">330.000<sup>đ</sup></span></p>
+                  <button class="btn">MUA HÀNG</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="otherproduct-item">
+              <div class="row">
+                <div class="col-sm-6 col-6"><img src="images/Layer 62.jpg" alt="Áo sơ mi nam"></div>
+                <div class="col-sm-6 col-6">
+                  <a href="" title="Áo sơ mi nam">Áo sơ mi nam</a>
+                  <p><span class="text-blue">720.000<sup>đ</sup></span><span class="text-cross">330.000<sup>đ</sup></span></p>
+                  <button class="btn">MUA HÀNG</button>
+                </div>
+              </div>
+            </div>  
+          </div>
+          <div class="col-sm-4">
+            <div class="main-title main-title-otherproduct">SẢN PHẨM ĐẶC BIỆT</div>
+            <div class="main-title-btn"> <i class="copy-4" ></i> <i class="copy-7" ></i> </div>
+            <div class="otherproduct-item">
+              <div class="row">
+                <div class="col-sm-6 col-6"><img src="images/Layer 402.jpg" alt="Áo sơ mi nam"></div>
+                <div class="col-sm-6 col-6">
+                  <a href="" title="Áo sơ mi nam">Áo sơ mi nam</a>
+                  <p><span class="text-blue">720.000<sup>đ</sup></span><span class="text-cross">330.000<sup>đ</sup></span></p>
+                  <button class="btn">MUA HÀNG</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="otherproduct-item">
+              <div class="row">
+                <div class="col-sm-6 col-6"><img src="images/Layer 64.jpg" alt="Áo sơ mi nam"></div>
+                <div class="col-sm-6 col-6">
+                  <a href="" title="Áo sơ mi nam">Áo sơ mi nam</a>
+                  <p><span class="text-blue">720.000<sup>đ</sup></span></p>
+                  <button class="btn">MUA HÀNG</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="main-title main-title-otherproduct">SẢN PHẨM MUA NHIỀU</div>
+            <div class="main-title-btn"> <i class="copy-4" ></i> <i class="copy-7" ></i> </div>
+            <div class="otherproduct-item">
+              <div class="row">
+                <div class="col-sm-6 col-6"><img src="images/Layer 62.jpg" alt="Áo sơ mi nam"></div>
+                <div class="col-sm-6 col-6">
+                  <a href="" title="Áo sơ mi nam">Áo sơ mi nam</a>
+                  <p><span class="text-blue">720.000<sup>đ</sup></span><span class="text-cross">330.000<sup>đ</sup></span></p>
+                  <button class="btn">MUA HÀNG</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="otherproduct-item">
+              <div class="row">
+                <div class="col-sm-6 col-6"><img src="images/Layer 402.jpg" alt="Áo sơ mi nam"></div>
+                <div class="col-sm-6 col-6">
+                  <a href="" title="Áo sơ mi nam">Áo sơ mi nam</a>
+                  <p><span class="text-blue">720.000<sup>đ</sup></span><span class="text-cross">330.000<sup>đ</sup></span></p>
+                  <button class="btn">MUA HÀNG</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end OTHER PRODUCT -->
+
+    <!-- start FEEDBACK -->
+    <section id="feedback">
+      <div class="feedback-layer"></div>
+      <div class="main-title main-title-feedback">Ý kiến khách hàng</div>
+      <div class="container">
+        <p class="feedback-describe"> Vẻ đẹp của những người nổi tiếng trong Vbiz hiện nay không chỉ tỏa ra từ nhan sắc, tài năng của họ mà còn từ những bộ cánh lộng lẫy do chính các nhà thiết kế Việt sáng tạo nên. Vẻ đẹp của những người nổi tiếng trong Vbiz hiện nay không chỉ tỏa ra từ nhan sắc, tài năng của họ mà còn từ những bộ cánh lộng lẫy do chính các nhà thiết kế Việt sáng tạo nên.</p>
+
+        <img class="feedback-avar" src="images/avar.png" alt="Maria">
+        <div class="feedback-name">MARIA</div>
+        <div class="feedback-job"> Fashion Design</div>
+      </div>
+
+    </section>
+    <!-- end FEEDBACK  -->
+
+    <!-- start CUSTOMER -->
+    <section id="customer">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 col-sm-2"><img src="images/cust1.jpg" alt="percona"></div>
+          <div class="col-4 col-sm-2"><img src="images/cust2.jpg" alt="parrotik"></div>
+          <div class="col-4 col-sm-2"><img src="images/cust3.jpg" alt="gls"></div>
+          <div class="col-4 col-sm-2"><img src="images/cust4.jpg" alt="kanipoly"></div>
+          <div class="col-4 col-sm-2"><img src="images/cust5.jpg" alt="two wizards"></div>
+          <div class="col-4 col-sm-2"><img src="images/cust6.jpg" alt="gatoteca"></div>
+        </div>
+      </div>
+    </section>
+    <!-- end CUSTOMER -->
+
+    <!-- start NEWS -->
+    <section id="news">
+      <div class="main-title main-title-news">TIN TỨC & BLOG</div>
+      <div class="main-title-btn"> <i class="copy-4" ></i> <i class="copy-7" ></i> </div>
+      <div class="container">
+        <div class="row box-news">
+          <div class="col-sm-12 col-lg-6">
+            <div class="box1">
+              <div class="box-layer"></div>
+              <img src="images/Layer 82.jpg" class="pic" alt="Bài viết 1">
+              <div class="datebox">
+                <p class="text-blue"> 23 </p>
+                <hr>
+                <p class="text-white"> THÁNG 6 </p>
+                <p class="text-muted"> 2 Bình luận </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-lg-6">
+            <div class="box2">
+              <div class="box-layer"></div>
+              <img src="images/Layer 87.png" class="pic" alt="Giới trẻ Bắc-Nam,street style đơn giản mà bắt mắt">
+              <div class="image-layer"></div>
+              <div class="news-box">
+                <div class="news-title">Giới trẻ Bắc-Nam,street style đơn giản mà bắt mắt</div>
+                <div class="news-describe"> <i>Có lẽ bởi tính chất "ăn gian" vóc dáng và vô cùng thoải mái Có lẽ bởi tính chất "ăn gian" vóc dáng và vô cùng thoải má Có lẽ bởi tính chất "ăn gian" vóc dáng và vô cùng thoải má Có lẽ bởi tính chất "ăn gian" vóc dáng và vô cùng thoải má v Có lẽ bởi tính chất "ăn gian"... </i> 
+                  <br> <br>
+                  <a href="#"> <i> Read more </i></a>
+                </div>
+              </div>
+              <div class="datebox">
+                <p class="text-blue"> 10 </p>
+                <hr>
+                <p class="text-white"> THÁNG 5 </p>
+                <p class="text-muted"> 10 Bình luận </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end NEWS -->
+
+    <!-- start NEWSLETTER  -->
+    <section id="newsletter">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="newsletter-wrap">
+              <ul>
+                <li><span class="newsletter-span"><i class="mail"></i></span>GỬI EMAIL CHO CHÚNG TÔI</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="newsletter-input">
+              <div class="input-group mb-3 input-group-nletter">
+                <input type="text" class="form-control" placeholder="chăm sóc khách hàng..." aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-nletter" type="button">GỬI LIÊN HỆ</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end NEWSLETTER  -->
+
+    <!-- start FOOTER -->
+    <section id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 footer-brand">
+            <div class="row ">
+              <div class="col-sm-12 padding-1">
+                <img src="images/Meceria.png">
+              </div>
+
+              <div class="col-sm-12 footer-info">
+                Trụ sở: <br>
+                <ul>
+                  <li> <span class="footer-span"> <i class="marker-copy"></i></span>Tầng 4, Tòa nhà Hanoi Group số 442 Đội Cấn,<br>
+                  P.Cống Vi, Q. Ba Đình, Hà Nội</li>
+                  <li><span class="footer-span"> <i class="phone-Hook"></i></span>(04) 6674 2332  &nbsp &nbsp-&nbsp &nbsp &nbsp &nbsp  <span class="footer-span"> <i class="fax fax-span"></i></span>(04) 3786 8904</li>
+                  <li><span class="footer-span"> <i class="phone-Hook"></i></span>(08) 6680 9686</li>
+                  <li><span class="footer-span"> <i class="mail1"></i></span><a href="#"> support@bizweb.vn </a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-12 padding-1" >
+            <div class="footer-tab">
+              <div class="footer-tab-title footer-tab-title1">CHUYỂN HÀNG</div>
+              <ul class="footer-ul">
+                <li><a href=""> mua sắm trực tuyến </a>  </li>
+                <li><a href=""> Đến từ chúng tôi gửi đến </a></li>
+                <li><a href=""> Chính sách vận chuyển </a></li>
+                <li><a href=""> vận chuyển thông tin</a></li>
+                <li><a href=""> phiếu quà tặng</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-12 padding-1">
+            <div class="footer-tab">
+              <div class="footer-tab-title footer-tab-title2">HỖ TRỢ</div>
+              <ul class="footer-ul">
+                <li><a href=""> mua sắm trực tuyến </a>  </li>
+                <li><a href=""> Đến từ chúng tôi gửi đến </a></li>
+                <li><a href=""> Chính sách vận chuyển </a></li>
+                <li><a href=""> vận chuyển thông tin</a></li>
+                <li><a href=""> phiếu quà tặng</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-12 padding-1">
+            <div class="footer-tab">
+              <div class="footer-tab-title footer-tab-title3">THÔNG TIN</div>
+              <ul class="footer-ul">
+                <li><a href=""> mua sắm trực tuyến </a>  </li>
+                <li><a href=""> Đến từ chúng tôi gửi đến </a></li>
+                <li><a href=""> Chính sách vận chuyển </a></li>
+                <li><a href=""> vận chuyển thông tin</a></li>
+                <li><a href=""> phiếu quà tặng</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-12 padding-1">
+            <div class="footer-tab">
+              <div class="footer-tab-title footer-tab-title4">MY ACCOUNT</div>
+              <ul class="footer-ul">
+                <li><a href=""> mua sắm trực tuyến </a>  </li>
+                <li><a href=""> Đến từ chúng tôi gửi đến </a></li>
+                <li><a href=""> Chính sách vận chuyển </a></li>
+                <li><a href=""> vận chuyển thông tin</a></li>
+                <li><a href=""> phiếu quà tặng</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end FOOTER -->
+
+    <!-- start COPYRIGHT -->
+    <section id="copyright">
+      &#169; Copyright 2008-2014 DKT Technology JSC
+    </section>
+    <!-- end COPYRIGHT -->
+  </div>
+</body>
+
+<script src="./js/jquery-3.1.1.min.js" type=text/javascript></script>
+<script src="./js/bootstrap.min.js" type=text/javascript></script>
+</html>
