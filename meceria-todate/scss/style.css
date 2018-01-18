@@ -460,11 +460,7 @@ textarea {
 .slide .carousel-indicators .active {
   background-color: #24c5d9; }
 .slide .carousel-control-prev, .slide .carousel-control-next {
-<<<<<<< HEAD
-  width: 9%; }
-=======
   width: 8%; }
->>>>>>> 5d7883f1c5a522e6783664bdb6a4700aa0d8edd1
 .slide .carousel-control-prev-icon {
   background: url(../images/slide-icon.png) no-repeat;
   background-position: -151px 0px;
@@ -1309,12 +1305,9 @@ textarea {
     width: 32%; } }
 @media (max-width: 767px) {
   /** general **/
-<<<<<<< HEAD
-=======
   .main-title-otherproduct {
-    font-size: 13px; }
+    font-size: 25px; }
 
->>>>>>> 5d7883f1c5a522e6783664bdb6a4700aa0d8edd1
   /** NAVBAR **/
   .navbar .nav-item-cart {
     margin-right: 10px;
@@ -1331,23 +1324,20 @@ textarea {
     border-color: transparent; }
 
   /** TOP PRODUCT **/
-<<<<<<< HEAD
-  #topproduct .ribbon {
-    left: 136px; }
+  #topproduct .detail-large {
+    bottom: 10%; }
+    #topproduct .detail-large .detail-title {
+      font-size: 35px; }
+    #topproduct .detail-large .detail-price {
+      font-size: 25px; }
   #topproduct .item {
     text-align: center; }
+    #topproduct .item .ribbon {
+      left: 118px; }
     #topproduct .item .detail .icon-l {
       padding-left: 118px; }
-=======
-  #topproduct .detail-large {
-    bottom: 27%; }
-    #topproduct .detail-large .detail-title {
-      font-size: 25px; }
-    #topproduct .detail-large .detail-price {
-      font-size: 20px; }
-  #topproduct .detail a {
-    font-size: 14px; }
->>>>>>> 5d7883f1c5a522e6783664bdb6a4700aa0d8edd1
+    #topproduct .item .detail a {
+      font-size: 14px; }
 
   /** NEWS **/
   #news {
@@ -1459,17 +1449,12 @@ textarea {
       font-size: 30px; }
   #topproduct .img-large {
     margin-top: 4px; }
-<<<<<<< HEAD
-  #topproduct .item .detail a {
-    font-size: 14px; }
+  #topproduct .item .ribbon {
+    left: 17px; }
   #topproduct .item .detail .icon-l {
     padding-left: 27px; }
-  #topproduct .ribbon {
-    left: 17px; }
-=======
-  #topproduct .detail a {
+  #topproduct .item .detail a {
     font-size: 14px; }
->>>>>>> 5d7883f1c5a522e6783664bdb6a4700aa0d8edd1
 
   /** ADS **/
   #ads {
@@ -1648,6 +1633,9 @@ textarea {
 
   .main-title {
     font-size: 25px; }
+
+  .main-title.main-title-otherproduct {
+    font-size: 15px; }
 
   .btn {
     padding: 4px;

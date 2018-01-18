@@ -565,15 +565,9 @@
 // Medium devices (tablets, less than 768px) 
 @media (max-width: 767px) {
   /** general **/
-<<<<<<< HEAD
-  // .main-title-otherproduct {
-  //   font-size: 13px;
-  // }
-=======
   .main-title-otherproduct {
-    font-size: 13px;
+    font-size: 25px;
   }
->>>>>>> 5d7883f1c5a522e6783664bdb6a4700aa0d8edd1
   /** NAVBAR **/
     .navbar {
       .nav-item-cart {
@@ -599,77 +593,31 @@
     }
   }
   /** TOP PRODUCT **/
-<<<<<<< HEAD
-  #topproduct {
-    .ribbon {
-      left:136px;
-    }
-    .item {
-      text-align: center;
-      .detail {
-        .icon-l {
-          padding-left: 118px;
-        }
-      }
-    }
-}
-    // .detail {
-    //   a {
-    //     font-size: 25px;
-    //   }
-    //   .text-blue {
-    //     font-size: 20px;
-    //   }
-    //   .text-cross {
-    //     font-size: 15px;
-    //     &:before {
-    //       margin-top: 6px;
-    //       height: 12px;
-    //     }
-    //   }
-    // }
-
-    // .btn{
-    //   font-size: 16px;
-    //   padding: 8px;
-    // }
-// }
-// #topproduct {
-//   .detail-large {
-//     bottom: 27%;
-//     .detail-title {
-//       font-size: 25px;
-//     }
-//     .detail-price {
-//       font-size: 20px;
-//     }
-//   }
-
-//   .detail {
-//     a {
-//       font-size: 14px;
-//     }
-//   }
-// }
-=======
 #topproduct {
   .detail-large {
-    bottom: 27%;
+    bottom: 10%;
     .detail-title {
-      font-size: 25px;
+      font-size: 35px;
     }
     .detail-price {
-      font-size: 20px;
+      font-size: 25px;
     }
   }
-
-  .detail {
-    a {
-      font-size: 14px;
+    .item {
+      text-align: center;
+    .ribbon {
+        left:118px;
+      }
+    .detail {
+      .icon-l {
+        padding-left: 118px;
+      }
+      a {
+        font-size: 14px;
+      }
     }
   }
 }
->>>>>>> 5d7883f1c5a522e6783664bdb6a4700aa0d8edd1
 
   /** NEWS **/
   #news {
@@ -839,28 +787,19 @@
   .img-large {
     margin-top: 4px;
   }
-<<<<<<< HEAD
   .item {
+    .ribbon {
+      left: 17px;
+    }
     .detail {
-      a {
-        font-size: 14px;
-      }
       .icon-l {
         padding-left: 27px;
       }
+      a {
+        font-size: 14px;
+      }
     }
   }
-  .ribbon {
-    left:17px;
-    }
-=======
-
-  .detail {
-    a {
-      font-size: 14px;
-    }
-  }
->>>>>>> 5d7883f1c5a522e6783664bdb6a4700aa0d8edd1
 }
 /** ADS **/
 #ads {
@@ -1115,6 +1054,9 @@
   .main-title {
     font-size: 25px;
   }
+  .main-title.main-title-otherproduct {
+      font-size: 15px;
+    }
 
   .btn {
     padding: 4px;
