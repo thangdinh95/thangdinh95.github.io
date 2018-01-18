@@ -565,9 +565,15 @@
 // Medium devices (tablets, less than 768px) 
 @media (max-width: 767px) {
   /** general **/
+<<<<<<< HEAD
   // .main-title-otherproduct {
   //   font-size: 13px;
   // }
+=======
+  .main-title-otherproduct {
+    font-size: 13px;
+  }
+>>>>>>> 5d7883f1c5a522e6783664bdb6a4700aa0d8edd1
   /** NAVBAR **/
     .navbar {
       .nav-item-cart {
@@ -593,6 +599,7 @@
     }
   }
   /** TOP PRODUCT **/
+<<<<<<< HEAD
   #topproduct {
     .ribbon {
       left:136px;
@@ -644,6 +651,25 @@
 //     }
 //   }
 // }
+=======
+#topproduct {
+  .detail-large {
+    bottom: 27%;
+    .detail-title {
+      font-size: 25px;
+    }
+    .detail-price {
+      font-size: 20px;
+    }
+  }
+
+  .detail {
+    a {
+      font-size: 14px;
+    }
+  }
+}
+>>>>>>> 5d7883f1c5a522e6783664bdb6a4700aa0d8edd1
 
   /** NEWS **/
   #news {
@@ -813,6 +839,7 @@
   .img-large {
     margin-top: 4px;
   }
+<<<<<<< HEAD
   .item {
     .detail {
       a {
@@ -826,6 +853,14 @@
   .ribbon {
     left:17px;
     }
+=======
+
+  .detail {
+    a {
+      font-size: 14px;
+    }
+  }
+>>>>>>> 5d7883f1c5a522e6783664bdb6a4700aa0d8edd1
 }
 /** ADS **/
 #ads {
