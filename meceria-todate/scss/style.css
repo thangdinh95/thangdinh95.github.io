@@ -1306,7 +1306,7 @@ textarea {
 @media (max-width: 767px) {
   /** general **/
   .main-title-otherproduct {
-    font-size: 13px; }
+    font-size: 25px; }
 
   /** NAVBAR **/
   .navbar .nav-item-cart {
@@ -1325,13 +1325,19 @@ textarea {
 
   /** TOP PRODUCT **/
   #topproduct .detail-large {
-    bottom: 27%; }
+    bottom: 10%; }
     #topproduct .detail-large .detail-title {
-      font-size: 25px; }
+      font-size: 35px; }
     #topproduct .detail-large .detail-price {
-      font-size: 20px; }
-  #topproduct .detail a {
-    font-size: 14px; }
+      font-size: 25px; }
+  #topproduct .item {
+    text-align: center; }
+    #topproduct .item .ribbon {
+      left: 118px; }
+    #topproduct .item .detail .icon-l {
+      padding-left: 118px; }
+    #topproduct .item .detail a {
+      font-size: 14px; }
 
   /** NEWS **/
   #news {
@@ -1443,7 +1449,11 @@ textarea {
       font-size: 30px; }
   #topproduct .img-large {
     margin-top: 4px; }
-  #topproduct .detail a {
+  #topproduct .item .ribbon {
+    left: 17px; }
+  #topproduct .item .detail .icon-l {
+    padding-left: 27px; }
+  #topproduct .item .detail a {
     font-size: 14px; }
 
   /** ADS **/
@@ -1623,6 +1633,9 @@ textarea {
 
   .main-title {
     font-size: 25px; }
+
+  .main-title.main-title-otherproduct {
+    font-size: 15px; }
 
   .btn {
     padding: 4px;
