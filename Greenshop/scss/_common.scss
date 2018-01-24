@@ -1,0 +1,181 @@
+.padding-0 {
+    padding: 0;
+}
+
+.margin-l-auto {
+    margin-left: auto;
+}
+
+.topproduct-price--red {
+    color: $color_red;
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif; 
+}
+
+
+.topproduct-price--cross {
+    color: $color_pricecross;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    position: relative;
+    display: inline-block;
+    margin-left: 7px;
+    &:before {
+        content: ' ';
+        position: absolute;
+        width: 99%;
+        height: 1px;
+        background-color: $color_pricecross;
+        top: 12px;
+        left: 0.5px;
+    }
+}
+
+.circle--red,
+.circle--green {
+    background-color: $color_red;
+    border: 1px solid $color_red;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 14px;
+    color: $color_bg;
+    z-index: 2000;
+}
+
+.circle--green{
+    background-color: $color_green;
+    border: 1px solid $color_green;
+}
+
+.maintitle {
+    color: $color_green;
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 37px;
+
+    &:before {
+        content: ' ';
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        background-color: $color_border;
+        bottom: -14px;
+    }
+
+    &:after {
+        content: ' ';
+        position: absolute;
+        height: 3px;
+        background-color: $color_btn;
+        bottom: -15px;
+        left: 0;
+    }
+}
+.maintitle--topproduct {
+    &:after {
+        width: 12%;
+    }
+}
+.maintitle--bestseller-product{
+    &:after {
+        width: 60%;
+    }
+}
+.maintitle--discount-product{
+    &:after {
+        width: 19%;
+    }
+}
+
+
+.maintitle--newproduct,
+.maintitle--news {
+    &:after {
+        width: 10%;
+    }
+}
+
+.btn--buy {
+    background-color: $color_btn;
+    color: $color_bg;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-size: 14px;
+    padding: 10px 35px;
+    margin: 0 6px;
+
+    &:hover {
+        background-color: $color_topnav;
+        color: $color_btn;
+    }
+}
+
+.btn--buysmall {
+    font-size: 10px;
+    padding: 5px 9px;
+}
+
+.btn--zoom {
+    background-color: $color_bg;
+    border-radius: 50%;
+    font-size: 14px;
+    padding: 10px 15px;
+    margin: 0 6px;
+
+    &:hover {
+        background-color: $color_topnav;
+        color: $color_bg;
+    }
+}
+.btn--zoomsmall {
+    font-size: 10px;
+    padding: 5px 8px;
+}
+
+.btn--slide {
+    border-radius: 50%;
+    font-size: 12px;
+    background-color: transparent;
+    border: 1px solid $color_border;
+    padding: 4px 11px;
+    transition: 0.4s;
+    &:hover {
+        background-color: $color_btn;
+        border-color: $color_btn;
+        color: $color_bg;
+    }
+}
+
+.card-title {
+    margin: 5px 0;
+    font-size: 16px;
+    color: $color_card-title;
+}
+
+.bestseller-title {
+    font-size: 14px;
+    color: $color_card-title;
+}
+
+.bestseller-price--red {
+    color: $color_red;
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif; 
+}
+
+.rating {
+    color: $color_rating;
+    margin: 5px 0;
+        i {
+            margin: 0 2px;
+        }
+}
