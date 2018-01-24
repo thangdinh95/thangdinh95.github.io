@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  background-color: $color_bg;
+}
+
+body *{
+  box-sizing: border-box;
+}
+
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  &:hover, &:focus {
+    text-decoration: none;
+    color: $color_btn;
+    transition: 0.4s;
+  }
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+input {
+  outline: none;
+}
+
+.form-control {
+  &:focus {
+    box-shadow: 0 0 0 0 transparent;
+  }
+}
+
+.btn {
+  &:focus {
+    box-shadow: 0 0 0 0 transparent;
+  }
+}
+
